@@ -1,0 +1,50 @@
+{
+ "primary": {
+  "F1-A1": {
+   "delta_rho": 0.008702072120299387,
+   "p_boot": 0.0694,
+   "p_holm": 0.2082,
+   "ci95": [
+    -0.0007380090313199416,
+    0.018508185280631997
+   ],
+   "ci_holm_level": [
+    -0.002777691632587534,
+    0.020793450602796495
+   ],
+   "holm_level": 0.016666666666666666,
+   "decision": "No meaningful difference"
+  },
+  "F1-G": {
+   "delta_rho": -0.010753298684114454,
+   "p_boot": 0.2252,
+   "p_holm": 0.4504,
+   "ci95": [
+    -0.030764834681411952,
+    0.005560229858064871
+   ],
+   "ci_holm_level": [
+    -0.034072684030230185,
+    0.00743448364320979
+   ],
+   "holm_level": 0.025,
+   "decision": "Inconclusive"
+  },
+  "F1-U": {
+   "delta_rho": -0.006270545085029555,
+   "p_boot": 0.5548,
+   "p_holm": 0.5548,
+   "ci95": [
+    -0.027444993009148294,
+    0.013804549930326267
+   ],
+   "ci_holm_level": [
+    -0.027444993009148294,
+    0.013804549930326267
+   ],
+   "holm_level": 0.05,
+   "decision": "Inconclusive"
+  }
+ },
+ "conclusion": "No fetal improvement declared (F1-A1: No meaningful difference; F1-G: Inconclusive)."
+}

@@ -1,0 +1,12 @@
+{
+  "singles_with_wt_and_QC_HEK_K562": 23490,
+  "ref_match_hg19_after_lift": 1.0,
+  "events_eligible_ge5": 314,
+  "events_excluded_near_vexseq_mfass": 159,
+  "families_sampled": 155,
+  "variants_in_subset": 3323,
+  "unique_to_score": 3321,
+  "genes": 135,
+  "train_families": 78,
+  "test_families": 77
+}

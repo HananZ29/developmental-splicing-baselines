@@ -1,0 +1,64 @@
+{
+ "identifiability": {
+  "v10": {
+   "multi_exon_transcripts": 152460,
+   "identical_chain_within_gene": 4074,
+   "junction_nested_strict_subset": 33887,
+   "genes_with_>=2_multiexon_tx": 19426,
+   "genes_with_any_unidentifiable_pair": 12832
+  },
+  "v19": {
+   "multi_exon_transcripts": 171656,
+   "identical_chain_within_gene": 4981,
+   "junction_nested_strict_subset": 39466,
+   "genes_with_>=2_multiexon_tx": 20957,
+   "genes_with_any_unidentifiable_pair": 14454
+  },
+  "v31lift37": {
+   "multi_exon_transcripts": 201710,
+   "identical_chain_within_gene": 5033,
+   "junction_nested_strict_subset": 44152,
+   "genes_with_>=2_multiexon_tx": 22987,
+   "genes_with_any_unidentifiable_pair": 15975
+  },
+  "v33lift37": {
+   "multi_exon_transcripts": 202754,
+   "identical_chain_within_gene": 5207,
+   "junction_nested_strict_subset": 44273,
+   "genes_with_>=2_multiexon_tx": 23011,
+   "genes_with_any_unidentifiable_pair": 16013
+  }
+ },
+ "to_v31lift37": {
+  "v10": {
+   "multi_exon_src": 152460,
+   "exact_chain_unique_1to1": 125267,
+   "exact_chain_but_collapsible_TSS_TES_variants": 5582,
+   "no_exact_chain_in_dst": 21611,
+   "same_stable_id_and_same_chain": 125659,
+   "same_stable_id_but_DIFFERENT_chain": 8568
+  },
+  "v19": {
+   "multi_exon_src": 171656,
+   "exact_chain_unique_1to1": 152966,
+   "exact_chain_but_collapsible_TSS_TES_variants": 6514,
+   "no_exact_chain_in_dst": 12176,
+   "same_stable_id_and_same_chain": 155369,
+   "same_stable_id_but_DIFFERENT_chain": 6292
+  },
+  "v33lift37": {
+   "multi_exon_src": 202754,
+   "exact_chain_unique_1to1": 194837,
+   "exact_chain_but_collapsible_TSS_TES_variants": 5426,
+   "no_exact_chain_in_dst": 2491,
+   "same_stable_id_and_same_chain": 200043,
+   "same_stable_id_but_DIFFERENT_chain": 1359
+  }
+ },
+ "cluster_multi_intron_check_v31lift37": {
+  "clusters_ge2_introns": 53754,
+  "clusters_with_tx_using_ge2_introns": 26675,
+  "share": 0.4962,
+  "cluster_rule": "connected components of annotated introns sharing a donor or acceptor within gene"
+ }
+}

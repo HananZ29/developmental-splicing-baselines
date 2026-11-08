@@ -1,0 +1,10 @@
+{
+  "n_variants": 20,
+  "n_checks": 40,
+  "median_abs_err": 0.0008480765239986935,
+  "p95_abs_err": 0.003890255074992775,
+  "max_abs_err": 0.004910719596990104,
+  "dpsi_abs_median_at_check": 0.038026317954063346,
+  "rule": "pass if median <= 0.005 and p95 <= 0.02",
+  "pass": true
+}

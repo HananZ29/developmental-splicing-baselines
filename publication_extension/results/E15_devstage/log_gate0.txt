@@ -1,0 +1,5 @@
+{
+ "power_F1-A1_at_rho0.2_d0.05": 1.0,
+ "max_typeI_F1-A1_N0_N1": 0.018,
+ "verdict": "PASS"
+}

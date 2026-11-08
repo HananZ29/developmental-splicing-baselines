@@ -1,0 +1,40 @@
+{
+  "K562_replicates": 3,
+  "K562_replicate_psi_r_min": 0.961,
+  "HepG2_replicates": 3,
+  "HepG2_replicate_psi_r_min": 0.986,
+  "variants_total": 2062,
+  "snvs": 1960,
+  "snv_ref_matches_hg19_plus_strand": 1.0,
+  "snvs_measured_both_cells_with_baseline": 1960,
+  "exons": 110,
+  "baseline_psi_quantiles_K562": {
+    "0.1": 0.055,
+    "0.25": 0.256,
+    "0.5": 0.621,
+    "0.75": 0.779,
+    "0.9": 0.862
+  },
+  "baseline_psi_quantiles_HepG2": {
+    "0.1": 0.059,
+    "0.25": 0.378,
+    "0.5": 0.698,
+    "0.75": 0.831,
+    "0.9": 0.882
+  },
+  "exon_baseline_absdiff_K562_vs_HepG2_quantiles": {
+    "0.25": 0.02,
+    "0.5": 0.054,
+    "0.75": 0.114,
+    "0.9": 0.176
+  },
+  "exons_baseline_diff_ge_0.1": 32,
+  "exons_baseline_intermediate_0.2_0.8_either_cell": 68,
+  "dpsi_corr_K562_vs_HepG2": 0.908,
+  "abs_dpsi_ge_0.1_K562_HepG2": [
+    474,
+    417
+  ],
+  "overlap_identical_variants_with_evaluated_QTL": 0,
+  "vexseq_exons_within_5kb_of_an_evaluated_QTL_lead": 0
+}

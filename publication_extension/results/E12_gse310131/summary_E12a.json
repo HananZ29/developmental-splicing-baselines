@@ -1,0 +1,827 @@
+{
+  "integrity": {
+    "geo_rows": 4900923,
+    "geo_samples": [
+      "iPSC_1",
+      "iPSC_2",
+      "iPSC_3",
+      "NPC_1_1",
+      "NPC_1_3",
+      "NPC_2_1",
+      "NPC_2_2",
+      "NPC_3_1",
+      "NPC_3_3",
+      "CN_1_2",
+      "CN_1_3",
+      "CN_2_1",
+      "CN_2_2",
+      "CN_3_1",
+      "CN_3_2"
+    ],
+    "geo_equals_zenodo_full": true,
+    "final_rows": 182371,
+    "final_subset_of_full_with_identical_counts": true,
+    "full_rows_passing_gt5_in_ge3_samples": 482078,
+    "final_rows_passing_that_rule": 182371,
+    "final_with_gtf_structure": 182371,
+    "final_with_classification": 182371,
+    "reads_per_sample_full": {
+      "iPSC_1": 49023604,
+      "iPSC_2": 39431280,
+      "iPSC_3": 45381728,
+      "NPC_1_1": 38839049,
+      "NPC_1_3": 39407632,
+      "NPC_2_1": 32893257,
+      "NPC_2_2": 38068758,
+      "NPC_3_1": 37696114,
+      "NPC_3_3": 45024054,
+      "CN_1_2": 35824958,
+      "CN_1_3": 38625588,
+      "CN_2_1": 42166443,
+      "CN_2_2": 41200454,
+      "CN_3_1": 42277209,
+      "CN_3_2": 40131636
+    },
+    "reads_per_sample_final": {
+      "iPSC_1": 38314322,
+      "iPSC_2": 31032127,
+      "iPSC_3": 35262316,
+      "NPC_1_1": 27744108,
+      "NPC_1_3": 28060935,
+      "NPC_2_1": 22680459,
+      "NPC_2_2": 26299014,
+      "NPC_3_1": 26755799,
+      "NPC_3_3": 32553862,
+      "CN_1_2": 23727412,
+      "CN_1_3": 25260165,
+      "CN_2_1": 27176188,
+      "CN_2_2": 28511011,
+      "CN_3_1": 26421801,
+      "CN_3_2": 25273387
+    },
+    "min_nonzero_count_full": 2,
+    "samples": [
+      {
+        "sample": "iPSC_1",
+        "stage": "t00",
+        "lineage": 1,
+        "well": "1"
+      },
+      {
+        "sample": "iPSC_2",
+        "stage": "t00",
+        "lineage": 2,
+        "well": "1"
+      },
+      {
+        "sample": "iPSC_3",
+        "stage": "t00",
+        "lineage": 3,
+        "well": "1"
+      },
+      {
+        "sample": "NPC_1_1",
+        "stage": "t04",
+        "lineage": 1,
+        "well": "1"
+      },
+      {
+        "sample": "NPC_1_3",
+        "stage": "t04",
+        "lineage": 1,
+        "well": "3"
+      },
+      {
+        "sample": "NPC_2_1",
+        "stage": "t04",
+        "lineage": 2,
+        "well": "1"
+      },
+      {
+        "sample": "NPC_2_2",
+        "stage": "t04",
+        "lineage": 2,
+        "well": "2"
+      },
+      {
+        "sample": "NPC_3_1",
+        "stage": "t04",
+        "lineage": 3,
+        "well": "1"
+      },
+      {
+        "sample": "NPC_3_3",
+        "stage": "t04",
+        "lineage": 3,
+        "well": "3"
+      },
+      {
+        "sample": "CN_1_2",
+        "stage": "t30",
+        "lineage": 1,
+        "well": "2"
+      },
+      {
+        "sample": "CN_1_3",
+        "stage": "t30",
+        "lineage": 1,
+        "well": "3"
+      },
+      {
+        "sample": "CN_2_1",
+        "stage": "t30",
+        "lineage": 2,
+        "well": "1"
+      },
+      {
+        "sample": "CN_2_2",
+        "stage": "t30",
+        "lineage": 2,
+        "well": "2"
+      },
+      {
+        "sample": "CN_3_1",
+        "stage": "t30",
+        "lineage": 3,
+        "well": "1"
+      },
+      {
+        "sample": "CN_3_2",
+        "stage": "t30",
+        "lineage": 3,
+        "well": "2"
+      }
+    ]
+  },
+  "read_share_by_category_per_stage": {
+    "t00": {
+      "antisense": 0.0002,
+      "full-splice_match": 0.8185,
+      "fusion": 0.0304,
+      "genic": 0.0012,
+      "incomplete-splice_match": 0.0053,
+      "intergenic": 0.0,
+      "moreJunctions": 0.0003,
+      "novel_in_catalog": 0.0631,
+      "novel_not_in_catalog": 0.0809
+    },
+    "t04": {
+      "antisense": 0.0001,
+      "full-splice_match": 0.7922,
+      "fusion": 0.0291,
+      "genic": 0.0012,
+      "incomplete-splice_match": 0.0063,
+      "intergenic": 0.0002,
+      "moreJunctions": 0.0004,
+      "novel_in_catalog": 0.0768,
+      "novel_not_in_catalog": 0.0938
+    },
+    "t30": {
+      "antisense": 0.0001,
+      "full-splice_match": 0.7783,
+      "fusion": 0.0344,
+      "genic": 0.0017,
+      "incomplete-splice_match": 0.0062,
+      "intergenic": 0.0002,
+      "moreJunctions": 0.0003,
+      "novel_in_catalog": 0.0832,
+      "novel_not_in_catalog": 0.0956
+    }
+  },
+  "isoforms_by_category": {
+    "full-splice_match": 68432,
+    "novel_in_catalog": 62190,
+    "novel_not_in_catalog": 41763,
+    "incomplete-splice_match": 4424,
+    "fusion": 4332,
+    "intergenic": 445,
+    "genic": 432,
+    "antisense": 267,
+    "moreJunctions": 86
+  },
+  "fsm_mapping": {
+    "fsm_isoforms": 68432,
+    "unique_v47_ensts": 39157,
+    "ensts_in_v31lift37": 32873,
+    "ensts_not_in_v31lift37": 6284,
+    "fsm_reads_on_unmappable_ensts_frac": 0.0484
+  },
+  "overlap": {
+    "universe_genes": 1969,
+    "universe_transcripts": 24353,
+    "universe_genes_with_reads_t00": 1904,
+    "universe_genes_ge20_reads_t00": 1859,
+    "universe_transcripts_with_reads_t00": 6146,
+    "universe_genes_with_reads_t04": 1914,
+    "universe_genes_ge20_reads_t04": 1898,
+    "universe_transcripts_with_reads_t04": 6433,
+    "universe_genes_with_reads_t30": 1924,
+    "universe_genes_ge20_reads_t30": 1914,
+    "universe_transcripts_with_reads_t30": 6538,
+    "universe_transcripts_with_reads_any_stage": 6572,
+    "universe_transcripts_with_reads_fetal": 3706,
+    "universe_transcripts_with_reads_adult": 4130,
+    "universe_transcripts_with_reads_patowary": 10851,
+    "universe_tx_reads_in_leung_fetal_and_gse_any": 3138,
+    "universe_tx_reads_in_leung_adult_and_gse_any": 3276,
+    "universe_tx_reads_in_patowary_and_gse_any": 6063,
+    "universe_tx_reads_in_gse_any_not_leung_fetal": 3434,
+    "universe_tx_reads_in_gse_any_not_patowary": 509,
+    "sQTL_evaluation_genes": 444,
+    "sQTL_evaluation_genes_with_t30_reads": 437,
+    "isoQTL_evaluation_genes": 551,
+    "isoQTL_evaluation_genes_with_t30_reads": 531,
+    "sQTL_positive_genes": 146,
+    "sQTL_positive_genes_ge20_reads_t30": 143
+  },
+  "junctions": {
+    "hg38_unique_junctions": 236648,
+    "lift_failures": 4298,
+    "hg19_junctions": 232314
+  },
+  "local_coverage": {
+    "n_variants": 147,
+    "cluster_transcripts_total": 1670,
+    "cluster_tx_zero_reads_gse_t00": 1192,
+    "lead_intron_unsupported_transcript_level_gse_t00": 47,
+    "median_cluster_reads_gse_t00": 5734.0,
+    "cluster_tx_zero_reads_gse_t04": 1171,
+    "lead_intron_unsupported_transcript_level_gse_t04": 44,
+    "median_cluster_reads_gse_t04": 10237.0,
+    "cluster_tx_zero_reads_gse_t30": 1165,
+    "lead_intron_unsupported_transcript_level_gse_t30": 44,
+    "median_cluster_reads_gse_t30": 14532.0,
+    "cluster_tx_zero_reads_fetal": 1411,
+    "lead_intron_unsupported_transcript_level_fetal": 66,
+    "median_cluster_reads_fetal": 34.0,
+    "cluster_tx_zero_reads_adult": 1375,
+    "lead_intron_unsupported_transcript_level_adult": 64,
+    "median_cluster_reads_adult": 54.0,
+    "cluster_tx_zero_reads_patowary": 913,
+    "lead_intron_unsupported_transcript_level_patowary": 29,
+    "median_cluster_reads_patowary": 2045.0,
+    "lead_intron_zero_junction_reads_t00": 18,
+    "lead_intron_unsupported_both_transcript_and_junction_t00": 15,
+    "lead_intron_zero_junction_reads_t04": 16,
+    "lead_intron_unsupported_both_transcript_and_junction_t04": 13,
+    "lead_intron_zero_junction_reads_t30": 15,
+    "lead_intron_unsupported_both_transcript_and_junction_t30": 12,
+    "lead_junction_present_in_gse_any_isoform": 132,
+    "lead_intron_unsupported_both_leung": 57,
+    "lead_intron_unsupported_t00_and_t30": 44,
+    "spearman_u_baseline_vs_u_junction_t30": 0.809
+  },
+  "lead_intron_stage_contrast_abs_u": {
+    "gse_t30 vs gse_t00": {
+      "all": {
+        "n": 147,
+        "0.5": 0.0004,
+        "0.75": 0.0212,
+        "0.9": 0.1101,
+        "0.99": 0.3788
+      },
+      "lead_supported_in_both": {
+        "n": 100,
+        "0.5": 0.0077,
+        "0.75": 0.0415,
+        "0.9": 0.1502,
+        "0.99": 0.3813
+      }
+    },
+    "gse_t30 vs gse_t04": {
+      "all": {
+        "n": 147,
+        "0.5": 0.0005,
+        "0.75": 0.013,
+        "0.9": 0.0478,
+        "0.99": 0.2046
+      },
+      "lead_supported_in_both": {
+        "n": 103,
+        "0.5": 0.0038,
+        "0.75": 0.0209,
+        "0.9": 0.0639,
+        "0.99": 0.209
+      }
+    },
+    "gse_t04 vs gse_t00": {
+      "all": {
+        "n": 147,
+        "0.5": 0.0005,
+        "0.75": 0.0187,
+        "0.9": 0.1091,
+        "0.99": 0.4514
+      },
+      "lead_supported_in_both": {
+        "n": 100,
+        "0.5": 0.0048,
+        "0.75": 0.0305,
+        "0.9": 0.1531,
+        "0.99": 0.5659
+      }
+    },
+    "fetal vs adult": {
+      "all": {
+        "n": 147,
+        "0.5": 0.0001,
+        "0.75": 0.023,
+        "0.9": 0.0901,
+        "0.99": 0.432
+      },
+      "lead_supported_in_both": {
+        "n": 74,
+        "0.5": 0.0018,
+        "0.75": 0.0319,
+        "0.9": 0.0968,
+        "0.99": 0.3932
+      }
+    },
+    "gse_t30 vs fetal": {
+      "all": {
+        "n": 147,
+        "0.5": 0.004,
+        "0.75": 0.0383,
+        "0.9": 0.2144,
+        "0.99": 0.8575
+      },
+      "lead_supported_in_both": {
+        "n": 79,
+        "0.5": 0.0105,
+        "0.75": 0.0766,
+        "0.9": 0.2608,
+        "0.99": 0.7905
+      }
+    },
+    "gse_t30 vs adult": {
+      "all": {
+        "n": 147,
+        "0.5": 0.0035,
+        "0.75": 0.0374,
+        "0.9": 0.1651,
+        "0.99": 0.7276
+      },
+      "lead_supported_in_both": {
+        "n": 80,
+        "0.5": 0.0087,
+        "0.75": 0.0469,
+        "0.9": 0.1663,
+        "0.99": 0.6507
+      }
+    },
+    "junction_usage t30 vs t00 (both clusters >=20 reads)": {
+      "n": 142,
+      "0.5": 0.009,
+      "0.75": 0.0265,
+      "0.9": 0.1133,
+      "0.99": 0.3202
+    }
+  },
+  "cluster_transcript_agreement_summary": [
+    {
+      "abundance_bin_mean_t30_lineage_reads": "0",
+      "kind": "cross_study",
+      "stage": "",
+      "pearson_min": NaN,
+      "pearson_max": NaN,
+      "spearman_min": NaN,
+      "spearman_max": NaN,
+      "n": 1137
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "0",
+      "kind": "leung_replicate",
+      "stage": "",
+      "pearson_min": 0.876,
+      "pearson_max": 0.876,
+      "spearman_min": 0.666,
+      "spearman_max": 0.666,
+      "n": 868
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "0",
+      "kind": "lineage",
+      "stage": "t00",
+      "pearson_min": 0.909,
+      "pearson_max": 0.998,
+      "spearman_min": 1.0,
+      "spearman_max": 1.0,
+      "n": 1137
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "0",
+      "kind": "lineage",
+      "stage": "t04",
+      "pearson_min": 0.992,
+      "pearson_max": 0.997,
+      "spearman_min": 0.578,
+      "spearman_max": 0.817,
+      "n": 1122
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "0",
+      "kind": "lineage",
+      "stage": "t30",
+      "pearson_min": NaN,
+      "pearson_max": NaN,
+      "spearman_min": NaN,
+      "spearman_max": NaN,
+      "n": 1137
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "0",
+      "kind": "stage",
+      "stage": "",
+      "pearson_min": NaN,
+      "pearson_max": NaN,
+      "spearman_min": NaN,
+      "spearman_max": NaN,
+      "n": 1137
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "0",
+      "kind": "well_within_lineage",
+      "stage": "t04",
+      "pearson_min": 0.969,
+      "pearson_max": 1.0,
+      "spearman_min": 0.5,
+      "spearman_max": 1.0,
+      "n": 1122
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "0",
+      "kind": "well_within_lineage",
+      "stage": "t30",
+      "pearson_min": NaN,
+      "pearson_max": NaN,
+      "spearman_min": NaN,
+      "spearman_max": NaN,
+      "n": 1137
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "1-9",
+      "kind": "cross_study",
+      "stage": "",
+      "pearson_min": 0.508,
+      "pearson_max": 0.508,
+      "spearman_min": 0.457,
+      "spearman_max": 0.457,
+      "n": 31
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "1-9",
+      "kind": "leung_replicate",
+      "stage": "",
+      "pearson_min": NaN,
+      "pearson_max": NaN,
+      "spearman_min": NaN,
+      "spearman_max": NaN,
+      "n": 22
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "1-9",
+      "kind": "lineage",
+      "stage": "t00",
+      "pearson_min": 0.7,
+      "pearson_max": 0.864,
+      "spearman_min": 0.628,
+      "spearman_max": 0.718,
+      "n": 31
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "1-9",
+      "kind": "lineage",
+      "stage": "t04",
+      "pearson_min": 0.827,
+      "pearson_max": 0.976,
+      "spearman_min": 0.657,
+      "spearman_max": 0.702,
+      "n": 31
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "1-9",
+      "kind": "lineage",
+      "stage": "t30",
+      "pearson_min": 0.537,
+      "pearson_max": 0.898,
+      "spearman_min": 0.299,
+      "spearman_max": 0.521,
+      "n": 31
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "1-9",
+      "kind": "stage",
+      "stage": "",
+      "pearson_min": 0.234,
+      "pearson_max": 0.982,
+      "spearman_min": 0.696,
+      "spearman_max": 0.742,
+      "n": 31
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "1-9",
+      "kind": "well_within_lineage",
+      "stage": "t04",
+      "pearson_min": 0.394,
+      "pearson_max": 0.935,
+      "spearman_min": 0.479,
+      "spearman_max": 0.576,
+      "n": 31
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "1-9",
+      "kind": "well_within_lineage",
+      "stage": "t30",
+      "pearson_min": 0.478,
+      "pearson_max": 0.98,
+      "spearman_min": 0.218,
+      "spearman_max": 0.453,
+      "n": 31
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "10-99",
+      "kind": "cross_study",
+      "stage": "",
+      "pearson_min": 0.648,
+      "pearson_max": 0.736,
+      "spearman_min": 0.355,
+      "spearman_max": 0.629,
+      "n": 189
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "10-99",
+      "kind": "leung_replicate",
+      "stage": "",
+      "pearson_min": 0.836,
+      "pearson_max": 0.836,
+      "spearman_min": 0.672,
+      "spearman_max": 0.672,
+      "n": 134
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "10-99",
+      "kind": "lineage",
+      "stage": "t00",
+      "pearson_min": 0.942,
+      "pearson_max": 0.983,
+      "spearman_min": 0.794,
+      "spearman_max": 0.9,
+      "n": 189
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "10-99",
+      "kind": "lineage",
+      "stage": "t04",
+      "pearson_min": 0.905,
+      "pearson_max": 0.976,
+      "spearman_min": 0.82,
+      "spearman_max": 0.951,
+      "n": 187
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "10-99",
+      "kind": "lineage",
+      "stage": "t30",
+      "pearson_min": 0.93,
+      "pearson_max": 0.974,
+      "spearman_min": 0.916,
+      "spearman_max": 0.949,
+      "n": 189
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "10-99",
+      "kind": "stage",
+      "stage": "",
+      "pearson_min": 0.777,
+      "pearson_max": 0.95,
+      "spearman_min": 0.606,
+      "spearman_max": 0.852,
+      "n": 189
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "10-99",
+      "kind": "well_within_lineage",
+      "stage": "t04",
+      "pearson_min": 0.936,
+      "pearson_max": 0.979,
+      "spearman_min": 0.823,
+      "spearman_max": 0.884,
+      "n": 187
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "10-99",
+      "kind": "well_within_lineage",
+      "stage": "t30",
+      "pearson_min": 0.947,
+      "pearson_max": 0.966,
+      "spearman_min": 0.864,
+      "spearman_max": 0.919,
+      "n": 189
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": ">=100",
+      "kind": "cross_study",
+      "stage": "",
+      "pearson_min": 0.793,
+      "pearson_max": 0.837,
+      "spearman_min": 0.742,
+      "spearman_max": 0.828,
+      "n": 285
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": ">=100",
+      "kind": "leung_replicate",
+      "stage": "",
+      "pearson_min": 0.867,
+      "pearson_max": 0.867,
+      "spearman_min": 0.824,
+      "spearman_max": 0.824,
+      "n": 222
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": ">=100",
+      "kind": "lineage",
+      "stage": "t00",
+      "pearson_min": 0.986,
+      "pearson_max": 0.997,
+      "spearman_min": 0.977,
+      "spearman_max": 0.994,
+      "n": 285
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": ">=100",
+      "kind": "lineage",
+      "stage": "t04",
+      "pearson_min": 0.995,
+      "pearson_max": 0.996,
+      "spearman_min": 0.993,
+      "spearman_max": 0.996,
+      "n": 284
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": ">=100",
+      "kind": "lineage",
+      "stage": "t30",
+      "pearson_min": 0.992,
+      "pearson_max": 0.996,
+      "spearman_min": 0.992,
+      "spearman_max": 0.997,
+      "n": 285
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": ">=100",
+      "kind": "stage",
+      "stage": "",
+      "pearson_min": 0.936,
+      "pearson_max": 0.972,
+      "spearman_min": 0.932,
+      "spearman_max": 0.973,
+      "n": 285
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": ">=100",
+      "kind": "well_within_lineage",
+      "stage": "t04",
+      "pearson_min": 0.996,
+      "pearson_max": 0.998,
+      "spearman_min": 0.993,
+      "spearman_max": 0.997,
+      "n": 284
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": ">=100",
+      "kind": "well_within_lineage",
+      "stage": "t30",
+      "pearson_min": 0.995,
+      "pearson_max": 0.998,
+      "spearman_min": 0.994,
+      "spearman_max": 0.997,
+      "n": 285
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "all",
+      "kind": "cross_study",
+      "stage": "",
+      "pearson_min": 0.844,
+      "pearson_max": 0.879,
+      "spearman_min": 0.634,
+      "spearman_max": 0.756,
+      "n": 1642
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "all",
+      "kind": "leung_replicate",
+      "stage": "",
+      "pearson_min": 0.915,
+      "pearson_max": 0.915,
+      "spearman_min": 0.815,
+      "spearman_max": 0.815,
+      "n": 1246
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "all",
+      "kind": "lineage",
+      "stage": "t00",
+      "pearson_min": 0.99,
+      "pearson_max": 0.994,
+      "spearman_min": 0.958,
+      "spearman_max": 0.973,
+      "n": 1642
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "all",
+      "kind": "lineage",
+      "stage": "t04",
+      "pearson_min": 0.992,
+      "pearson_max": 0.997,
+      "spearman_min": 0.973,
+      "spearman_max": 0.985,
+      "n": 1624
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "all",
+      "kind": "lineage",
+      "stage": "t30",
+      "pearson_min": 0.994,
+      "pearson_max": 0.996,
+      "spearman_min": 0.99,
+      "spearman_max": 0.993,
+      "n": 1642
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "all",
+      "kind": "stage",
+      "stage": "",
+      "pearson_min": 0.957,
+      "pearson_max": 0.984,
+      "spearman_min": 0.954,
+      "spearman_max": 0.99,
+      "n": 1642
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "all",
+      "kind": "well_within_lineage",
+      "stage": "t04",
+      "pearson_min": 0.995,
+      "pearson_max": 0.997,
+      "spearman_min": 0.968,
+      "spearman_max": 0.971,
+      "n": 1624
+    },
+    {
+      "abundance_bin_mean_t30_lineage_reads": "all",
+      "kind": "well_within_lineage",
+      "stage": "t30",
+      "pearson_min": 0.995,
+      "pearson_max": 0.997,
+      "spearman_min": 0.979,
+      "spearman_max": 0.986,
+      "n": 1642
+    }
+  ],
+  "cluster_transcripts_by_t30_abundance_bin": {
+    "0": 1165,
+    "1-9": 31,
+    "10-99": 189,
+    ">=100": 285
+  },
+  "lineage_check_logCPM_corr": {
+    "mean_within_lineage_well_pairs": {
+      "t04": 0.979,
+      "t30": 0.9809
+    },
+    "mean_between_lineage_pairs": {
+      "t04": 0.963,
+      "t30": 0.9553
+    },
+    "t00_lineage_pairs": [
+      0.9522,
+      0.9829,
+      0.9576
+    ],
+    "t30_vs_t00_mean": 0.7587
+  },
+  "universe_smoothed_r": {
+    "gse_t30_L1~gse_t30_L2": 0.9923,
+    "gse_t30_L1~gse_t30_L3": 0.9926,
+    "gse_t30_L2~gse_t30_L3": 0.9962,
+    "gse_t00_L1~gse_t00_L2": 0.984,
+    "gse_t00_L1~gse_t00_L3": 0.9871,
+    "gse_t00_L2~gse_t00_L3": 0.9846,
+    "gse_t30~gse_t00": 0.9561,
+    "gse_t30~gse_t04": 0.984,
+    "gse_t04~gse_t00": 0.9607,
+    "fetal~adult": 0.9417,
+    "gse_t30~fetal": 0.8499,
+    "gse_t30~adult": 0.8418,
+    "gse_t30~patowary": 0.8678,
+    "gse_t00~fetal": 0.824
+  },
+  "universe_nonzero_weight_fraction": {
+    "gse_t00": 0.2524,
+    "gse_t04": 0.2642,
+    "gse_t30": 0.2685,
+    "fetal": 0.1522,
+    "adult": 0.1696,
+    "patowary": 0.4456
+  }
+}

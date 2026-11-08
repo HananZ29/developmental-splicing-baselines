@@ -1,0 +1,245 @@
+{
+  "sQTL": {
+    "n_positive": 147,
+    "n_control": 588,
+    "n_strict_control": 304,
+    "positives_with_any_tx_factor_ne_1": 147,
+    "positives_abs_pred_ge_0.01": {
+      "fetal": 14,
+      "adult": 18,
+      "generic": 36,
+      "gtex_cortex": 30,
+      "uniform": 48
+    },
+    "positives_top_event_at_annotated_site": 64,
+    "positives_top_event_ds_ge_0.2_unannotated": 3,
+    "n_genes_positive": 146,
+    "n_genes_total": 444,
+    "n_isoforms_in_universe_total": 6262,
+    "n_positive_informative": 40,
+    "n_blocks": 374,
+    "n_boot_used": 2000,
+    "baseline_sign_flips_among_positives": {
+      "fetal vs adult": 5,
+      "fetal vs generic": 7,
+      "adult vs generic": 7,
+      "fetal vs uniform": 14
+    },
+    "median_abs_pred_positive": {
+      "fetal": 3.911737735931705e-05,
+      "adult": 3.9912026167150064e-05,
+      "generic": 0.000488387309260041,
+      "gtex_cortex": 0.00033427361411403605,
+      "uniform": 0.001108779124811693
+    },
+    "binomial_p_direction_informative": {
+      "fetal": 1.8570244719740003e-07,
+      "adult": 1.946500560734421e-08,
+      "generic": 1.946500560734421e-08,
+      "gtex_cortex": 1.946500560734421e-08,
+      "uniform": 1.946500560734421e-08
+    },
+    "reference_scores": {
+      "DS_max": {
+        "auprc": 0.3187505035252473,
+        "auroc": 0.6086815678652414
+      },
+      "site_maxdelta": {
+        "auprc": 0.3893533602952386,
+        "auroc": 0.6555486140034245
+      }
+    },
+    "point": {
+      "fetal": {
+        "dir_acc_all": 0.7006802721088435,
+        "spearman_all": 0.41996488410140104,
+        "posthoc_spearman_abs": 0.14780043805973248,
+        "posthoc_dir_acc_realweight": 0.6351351351351351,
+        "posthoc_spearman_realweight": 0.2842184003446244,
+        "dir_acc_informative": 0.9,
+        "spearman_informative": 0.6853658536585365,
+        "auprc": 0.41748269049475945,
+        "auroc": 0.6877458466379749,
+        "auprc_strict_controls": 0.6062233531326351,
+        "auroc_strict_controls": 0.7127640529896171
+      },
+      "adult": {
+        "dir_acc_all": 0.6870748299319728,
+        "spearman_all": 0.4564908786868391,
+        "posthoc_spearman_abs": 0.189182577753535,
+        "posthoc_dir_acc_realweight": 0.6216216216216216,
+        "posthoc_spearman_realweight": 0.3447964385963101,
+        "dir_acc_informative": 0.925,
+        "spearman_informative": 0.8116322701688556,
+        "auprc": 0.39602619149799906,
+        "auroc": 0.6802894627238651,
+        "auprc_strict_controls": 0.5957690657049801,
+        "auroc_strict_controls": 0.7074494271392768
+      },
+      "generic": {
+        "dir_acc_all": 0.717687074829932,
+        "spearman_all": 0.49999338864384896,
+        "posthoc_spearman_abs": 0.1942671159057908,
+        "posthoc_dir_acc_realweight": 0.6283783783783784,
+        "posthoc_spearman_realweight": 0.340551593035639,
+        "dir_acc_informative": 0.925,
+        "spearman_informative": 0.803189493433396,
+        "auprc": 0.43651958188136286,
+        "auroc": 0.6876185848489056,
+        "auprc_strict_controls": 0.5971377316766613,
+        "auroc_strict_controls": 0.6994718940207661
+      },
+      "gtex_cortex": {
+        "dir_acc_all": 0.7142857142857143,
+        "spearman_all": 0.4988633133340438,
+        "posthoc_spearman_abs": 0.19783543120075536,
+        "posthoc_dir_acc_realweight": 0.6351351351351351,
+        "posthoc_spearman_realweight": 0.34121018796974767,
+        "dir_acc_informative": 0.925,
+        "spearman_informative": 0.797373358348968,
+        "auprc": 0.42808190433223325,
+        "auroc": 0.6925239483548521,
+        "auprc_strict_controls": 0.6000320595344344,
+        "auroc_strict_controls": 0.704204708199069
+      },
+      "uniform": {
+        "dir_acc_all": 0.6802721088435374,
+        "spearman_all": 0.4374114529115238,
+        "posthoc_spearman_abs": 0.1859561467077628,
+        "posthoc_dir_acc_realweight": 0.581081081081081,
+        "posthoc_spearman_realweight": 0.2542995621836697,
+        "dir_acc_informative": 0.925,
+        "spearman_informative": 0.8046904315196999,
+        "auprc": 0.35609267960336133,
+        "auroc": 0.643817390901939,
+        "auprc_strict_controls": 0.5314663776488083,
+        "auroc_strict_controls": 0.6591254923021841
+      }
+    }
+  },
+  "isoQTL": {
+    "n_positive": 270,
+    "n_control": 1079,
+    "n_strict_control": 843,
+    "positives_with_any_tx_factor_ne_1": 269,
+    "positives_abs_pred_ge_0.01": {
+      "fetal": 11,
+      "adult": 8,
+      "generic": 28,
+      "gtex_cortex": 24,
+      "uniform": 43
+    },
+    "positives_top_event_at_annotated_site": 72,
+    "positives_top_event_ds_ge_0.2_unannotated": 13,
+    "n_genes_positive": 270,
+    "n_genes_total": 551,
+    "n_isoforms_in_universe_total": 7122,
+    "n_positive_informative": 55,
+    "n_blocks": 424,
+    "n_boot_used": 2000,
+    "baseline_sign_flips_among_positives": {
+      "fetal vs adult": 3,
+      "fetal vs generic": 11,
+      "adult vs generic": 11,
+      "fetal vs uniform": 15
+    },
+    "median_abs_pred_positive": {
+      "fetal": 1.0628659991662281e-05,
+      "adult": 1.3548981499441725e-05,
+      "generic": 0.00021371899707545855,
+      "gtex_cortex": 0.0001539674112864594,
+      "uniform": 0.00040089028359174134
+    },
+    "binomial_p_direction_informative": {
+      "fetal": 4.336383137015787e-07,
+      "adult": 4.336383137015787e-07,
+      "generic": 4.336383137015787e-07,
+      "gtex_cortex": 4.336383137015787e-07,
+      "uniform": 8.699371704778969e-06
+    },
+    "reference_scores": {
+      "DS_max": {
+        "auprc": 0.31084493164024096,
+        "auroc": 0.5965194109772424
+      },
+      "site_maxdelta": {
+        "auprc": 0.36274242546942626,
+        "auroc": 0.6575498575498575
+      }
+    },
+    "point": {
+      "fetal": {
+        "dir_acc_all": 0.5981481481481481,
+        "spearman_all": 0.26016193495232476,
+        "posthoc_spearman_abs": 0.23439232325539883,
+        "posthoc_dir_acc_realweight": 0.5333333333333333,
+        "posthoc_spearman_realweight": 0.0734496993449829,
+        "dir_acc_informative": 0.8363636363636363,
+        "spearman_informative": 0.6357142857142858,
+        "auprc": 0.3690910044908978,
+        "auroc": 0.657405691140631,
+        "auprc_strict_controls": 0.42880412962986775,
+        "auroc_strict_controls": 0.6589385352137427
+      },
+      "adult": {
+        "dir_acc_all": 0.5981481481481481,
+        "spearman_all": 0.2756146788264206,
+        "posthoc_spearman_abs": 0.21810920625905414,
+        "posthoc_dir_acc_realweight": 0.5277777777777778,
+        "posthoc_spearman_realweight": 0.04552900406435101,
+        "dir_acc_informative": 0.8363636363636363,
+        "spearman_informative": 0.6476190476190476,
+        "auprc": 0.3742773290709775,
+        "auroc": 0.668527099852401,
+        "auprc_strict_controls": 0.43222143029104193,
+        "auroc_strict_controls": 0.666743552567989
+      },
+      "generic": {
+        "dir_acc_all": 0.5925925925925926,
+        "spearman_all": 0.25516186016878756,
+        "posthoc_spearman_abs": 0.16463907668891803,
+        "posthoc_dir_acc_realweight": 0.5222222222222223,
+        "posthoc_spearman_realweight": 0.029361649586368683,
+        "dir_acc_informative": 0.8363636363636363,
+        "spearman_informative": 0.6030303030303031,
+        "auprc": 0.3583982798635651,
+        "auroc": 0.6766776507740362,
+        "auprc_strict_controls": 0.4194745888851238,
+        "auroc_strict_controls": 0.6753811343965554
+      },
+      "gtex_cortex": {
+        "dir_acc_all": 0.5851851851851851,
+        "spearman_all": 0.24851739294052377,
+        "posthoc_spearman_abs": 0.1833438019030616,
+        "posthoc_dir_acc_realweight": 0.5166666666666667,
+        "posthoc_spearman_realweight": 0.019977775033954807,
+        "dir_acc_informative": 0.8363636363636363,
+        "spearman_informative": 0.5923520923520925,
+        "auprc": 0.3575561958869961,
+        "auroc": 0.6813870868087736,
+        "auprc_strict_controls": 0.4214718702924294,
+        "auroc_strict_controls": 0.6824831949387111
+      },
+      "uniform": {
+        "dir_acc_all": 0.5555555555555556,
+        "spearman_all": 0.1724919782444827,
+        "posthoc_spearman_abs": 0.18729511220094186,
+        "posthoc_dir_acc_realweight": 0.5055555555555555,
+        "posthoc_spearman_realweight": -0.01713798879706986,
+        "dir_acc_informative": 0.8,
+        "spearman_informative": 0.5349927849927851,
+        "auprc": 0.3137804966047384,
+        "auroc": 0.6348402155631071,
+        "auprc_strict_controls": 0.3708700304420946,
+        "auroc_strict_controls": 0.6354993190105883
+      }
+    }
+  },
+  "cluster_mode": "component",
+  "counts": {
+    "eligible_rows": 2084,
+    "scored_rows": 2084,
+    "unique_variant_strands_scored": 1996,
+    "failed_examples_all_wrong": 12
+  }
+}

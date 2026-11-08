@@ -1,0 +1,25 @@
+contrast	metric	estimate	ci_low	ci_high	p_boot	family
+P1_prop_measured - P2_prop_constant	pearson	-0.009372	-0.03065	0.006217	0.294	primary (Bonferroni 0.0125)
+P1_prop_measured - P2_prop_constant	spearman	-0.001015	-0.01176	0.009949	0.846	secondary
+P1_prop_measured - P2_prop_constant	mae	0.0003891	-0.0001568	0.001064	0.179	primary (Bonferroni 0.0125)
+P1_prop_measured - P2_prop_constant	dir_acc_abs_dpsi_ge_0.1	0	0	0	1	secondary
+P1_prop_measured - P3_prop_shuffled	pearson	0.006511	-0.01816	0.03134	0.681	primary (Bonferroni 0.0125)
+P1_prop_measured - P3_prop_shuffled	spearman	0.0005037	-0.01153	0.01227	0.958	secondary
+P1_prop_measured - P3_prop_shuffled	mae	-0.000208	-0.0011	0.0006412	0.678	primary (Bonferroni 0.0125)
+P1_prop_measured - P3_prop_shuffled	dir_acc_abs_dpsi_ge_0.1	0	0	0	1	secondary
+P1_prop_measured - P0_raw	pearson	-0.08634	-0.1574	-0.03444	0	secondary
+P1_prop_measured - P0_raw	spearman	-0.002938	-0.01505	0.009698	0.636	secondary
+P1_prop_measured - P0_raw	mae	-0.001281	-0.004496	0.002051	0.457	secondary
+P1_prop_measured - P0_raw	dir_acc_abs_dpsi_ge_0.1	0	0	0	1	secondary
+P5_calibrated - P1_prop_measured	pearson	0.07247	0.02462	0.1342	0.001	secondary
+P5_calibrated - P1_prop_measured	spearman	0.0003222	0.0001369	0.0005748	0	secondary
+P5_calibrated - P1_prop_measured	mae	-0.002584	-0.004965	-0.0003424	0.023	secondary
+P5_calibrated - P1_prop_measured	dir_acc_abs_dpsi_ge_0.1	0	0	0	1	secondary
+P1_prop_measured - P6_null_permuted_factor	pearson	0.4016	0.2681	0.5177	0	secondary
+P1_prop_measured - P6_null_permuted_factor	spearman	0.1425	0.05808	0.2258	0.001	secondary
+P1_prop_measured - P6_null_permuted_factor	mae	-0.009628	-0.01482	-0.005174	0	secondary
+P1_prop_measured - P6_null_permuted_factor	dir_acc_abs_dpsi_ge_0.1	0.1283	0.04229	0.209	0.004	secondary
+P1_prop_measured - P4_prop_half	pearson	-0.07329	-0.1355	-0.02856	0	secondary
+P1_prop_measured - P4_prop_half	spearman	-0.001015	-0.01176	0.009949	0.846	secondary
+P1_prop_measured - P4_prop_half	mae	-0.0006666	-0.002338	0.0009244	0.44	secondary
+P1_prop_measured - P4_prop_half	dir_acc_abs_dpsi_ge_0.1	0	0	0	1	secondary

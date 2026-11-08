@@ -1,0 +1,19 @@
+{
+  "cap_per_family": 20,
+  "events_qc_any": 748,
+  "events_after_excluding_E13c_events_genes": 585,
+  "events_after_lift_ref": 585,
+  "ref_match_hg19": 1.0,
+  "excluded_identical_to_vexseq_mfass": 51,
+  "excluded_8mer_similar_to_E13c": 2,
+  "max_8mer_containment_quantiles": [
+    0.041,
+    0.057,
+    0.079,
+    1.0
+  ],
+  "families": 129,
+  "genes": 125,
+  "variants": 1592,
+  "unique_to_score": 1592
+}

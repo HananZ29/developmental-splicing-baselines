@@ -1,0 +1,92 @@
+{
+ "label": "Independent verification, added after the single frozen run; does not alter it.",
+ "prediction_max_abs_diff": {
+  "A_SA": 2.1510571102112408e-15,
+  "A_PG": 1.27675647831893e-15,
+  "A_DS": 4.6074255521944e-15,
+  "N_MM": 9.985502008591496e-17
+ },
+ "pearson_max_abs_diff": 9.992007221626409e-16,
+ "n_rows": {
+  "full": 13916,
+  "N_DS_subsample": 1710,
+  "families_full": 129,
+  "families_sub": 40
+ },
+ "rebootstrap": {
+  "B": 1000,
+  "seed": 20261108,
+  "P1": {
+   "A_SA - Rr_PG": {
+    "p_boot": 0.028,
+    "ci_holm": [
+     -0.004743129330036745,
+     0.10153076092985794
+    ]
+   },
+   "A_SA - N_DS": {
+    "p_boot": 0.07,
+    "ci_holm": [
+     -0.14693333099728736,
+     0.027981137641493934
+    ]
+   },
+   "A_SA - N_MM": {
+    "p_boot": 0.416,
+    "ci_holm": [
+     -0.03733786871090035,
+     0.0800662108519638
+    ]
+   }
+  },
+  "P2": {
+   "A_SA - Rr_SA": {
+    "p_boot": 0.0,
+    "ci_holm": [
+     0.014230491970588172,
+     0.12357356370665874
+    ]
+   },
+   "A_DS - Rr_DS": {
+    "p_boot": 0.0,
+    "ci_holm": [
+     0.06710575727459561,
+     0.19759453464867874
+    ]
+   },
+   "A_PG - Rr_PG": {
+    "p_boot": 0.04,
+    "ci_holm": [
+     0.002035113175764911,
+     0.09098491096197867
+    ]
+   }
+  },
+  "gate_G-X_pass": false,
+  "per_comparator_pass": {
+   "A_SA - N_MM": false,
+   "A_SA - Rr_PG": false,
+   "A_SA - N_DS": false
+  },
+  "comparator_significantly_better": {
+   "A_SA - N_MM": false,
+   "A_SA - Rr_PG": false,
+   "A_SA - N_DS": false
+  },
+  "P2_significant": {
+   "A_SA - Rr_SA": true,
+   "A_PG - Rr_PG": true,
+   "A_DS - Rr_DS": true
+  }
+ },
+ "agrees_with_frozen": {
+  "gate_pass": true,
+  "per_comparator_pass": false,
+  "comparator_significantly_better": true,
+  "P2_significant": {
+   "A_SA - Rr_SA": true,
+   "A_PG - Rr_PG": true,
+   "A_DS - Rr_DS": true
+  }
+ }
+}

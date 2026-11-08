@@ -1,0 +1,29 @@
+{
+  "sgenes_rows": 13013,
+  "sig_q05": 2048,
+  "sig_in_universe": 313,
+  "lift_outcomes": {
+    "not_snv": 31,
+    "hg19_ref_mismatch": 1,
+    "intron_length_changed": 5,
+    "lifted_ok": 276
+  },
+  "intron_convention_gtag_rates": {
+    "start..end": 0.0,
+    "start+1..end-1": 1.0,
+    "start..end-1": 0.0,
+    "start+1..end": 0.0
+  },
+  "intron_convention_chosen": "start+1..end-1",
+  "eligibility_outcomes": {
+    "eligible": 82,
+    "intron_not_annotated": 47,
+    "far_from_splice_site": 115,
+    "no_competitor_intron": 32
+  },
+  "final_positives": 82,
+  "final_genes": 82,
+  "genes_shared_with_wen_positives": 31,
+  "same_lead_variant_pos_as_wen": 20,
+  "same_gene_same_target_intron_as_wen": 22
+}

@@ -1,0 +1,142 @@
+{
+  "integrity": {
+    "rows": 214516,
+    "libraries": 24,
+    "library_names": [
+      "209_1_GZ",
+      "209_2_GZ",
+      "209_3_GZ",
+      "209_4_GZ",
+      "334_1_GZ",
+      "334_2_GZ",
+      "334_3_GZ",
+      "334_4_GZ",
+      "336_1_GZ",
+      "336_2_GZ",
+      "336_3_GZ",
+      "336_4_GZ",
+      "334_1_CP",
+      "334_2_CP",
+      "334_3_CP",
+      "334_4_CP",
+      "209_1_CP",
+      "209_2_CP",
+      "209_3_CP",
+      "209_4_CP",
+      "336_1_CP",
+      "336_2_CP",
+      "336_3_CP",
+      "336_4_CP"
+    ],
+    "reads_per_library": {
+      "209_1_GZ": 623608,
+      "209_2_GZ": 542318,
+      "209_3_GZ": 501999,
+      "209_4_GZ": 529527,
+      "334_1_GZ": 1273843,
+      "334_2_GZ": 1594927,
+      "334_3_GZ": 1160553,
+      "334_4_GZ": 1546123,
+      "336_1_GZ": 1328077,
+      "336_2_GZ": 839389,
+      "336_3_GZ": 924697,
+      "336_4_GZ": 1323952,
+      "334_1_CP": 1164272,
+      "334_2_CP": 1432399,
+      "334_3_CP": 1048315,
+      "334_4_CP": 1426825,
+      "209_1_CP": 1315540,
+      "209_2_CP": 1198841,
+      "209_3_CP": 1107317,
+      "209_4_CP": 1144579,
+      "336_1_CP": 1328355,
+      "336_2_CP": 840493,
+      "336_3_CP": 927913,
+      "336_4_CP": 1328862
+    },
+    "enst_rows": 65006,
+    "pooled_table_rows": 57793,
+    "pooled_rows_found_in_S2B": 57793,
+    "max_abs_diff_fetal_gz_cp": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "agreement": {
+    "technical (4 libraries within donor-zone), median r": 0.9838272336737,
+    "biological (donor vs donor), r": {
+      "209~334": 0.991,
+      "209~336": 0.991,
+      "334~336": 0.995
+    },
+    "zone (GZ vs CP within donor), r": {
+      "209": 0.974,
+      "334": 0.984,
+      "336": 0.983
+    },
+    "donor vs Leung fetal, r": {
+      "209": 0.937,
+      "334": 0.938,
+      "336": 0.94
+    },
+    "donor vs Leung adult, r": {
+      "209": 0.917,
+      "334": 0.919,
+      "336": 0.922
+    },
+    "Leung fetal vs Leung adult, r": 0.933,
+    "nonzero_weight_fraction": {
+      "209": 0.3586,
+      "334": 0.3831,
+      "336": 0.3749
+    }
+  },
+  "sign_disagreements": {
+    "Wen_sQTL": {
+      "n": 147,
+      "fetal vs patowary_d209": 4,
+      "fetal vs patowary_d334": 5,
+      "fetal vs patowary_d336": 6,
+      "adult vs patowary_d209": 6,
+      "adult vs patowary_d334": 3,
+      "adult vs patowary_d336": 3,
+      "patowary_fetal vs patowary_d209": 5,
+      "patowary_fetal vs patowary_d334": 2,
+      "patowary_fetal vs patowary_d336": 2,
+      "patowary_d209 vs patowary_d334": 4,
+      "patowary_d209 vs patowary_d336": 5,
+      "patowary_d334 vs patowary_d336": 1
+    },
+    "Wen_isoQTL": {
+      "n": 270,
+      "fetal vs patowary_d209": 3,
+      "fetal vs patowary_d334": 3,
+      "fetal vs patowary_d336": 3,
+      "adult vs patowary_d209": 4,
+      "adult vs patowary_d334": 4,
+      "adult vs patowary_d336": 5,
+      "patowary_fetal vs patowary_d209": 3,
+      "patowary_fetal vs patowary_d334": 3,
+      "patowary_fetal vs patowary_d336": 4,
+      "patowary_d209 vs patowary_d334": 2,
+      "patowary_d209 vs patowary_d336": 3,
+      "patowary_d334 vs patowary_d336": 5
+    },
+    "GTEx_sQTL": {
+      "n": 82,
+      "fetal vs patowary_d209": 2,
+      "fetal vs patowary_d334": 4,
+      "fetal vs patowary_d336": 4,
+      "adult vs patowary_d209": 2,
+      "adult vs patowary_d334": 2,
+      "adult vs patowary_d336": 2,
+      "patowary_fetal vs patowary_d209": 2,
+      "patowary_fetal vs patowary_d334": 2,
+      "patowary_fetal vs patowary_d336": 2,
+      "patowary_d209 vs patowary_d334": 2,
+      "patowary_d209 vs patowary_d336": 2,
+      "patowary_d334 vs patowary_d336": 0
+    }
+  }
+}

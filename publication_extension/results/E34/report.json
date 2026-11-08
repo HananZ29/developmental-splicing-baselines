@@ -1,0 +1,59 @@
+{
+  "coverage_agreement": {
+    "evaluation_genes": 863,
+    "evaluation_transcripts": 11635,
+    "nonzero_weight_fraction": {
+      "fetal": 0.1432,
+      "adult": 0.164,
+      "generic": 0.9489,
+      "gtex_cortex": 0.9377,
+      "patowary_fetal": 0.4183,
+      "patowary_gz": 0.3789,
+      "patowary_cp": 0.377
+    },
+    "pearson_smoothed": {
+      "patowary_fetal~fetal": 0.925,
+      "patowary_fetal~adult": 0.904,
+      "fetal~adult": 0.933,
+      "patowary_fetal~generic": 0.704,
+      "patowary_gz~patowary_cp": 0.984,
+      "patowary_fetal~gtex_cortex": 0.705
+    },
+    "patowary_total_fetal_reads_matched": 18191337.0
+  },
+  "n_positives": {
+    "Wen_sQTL": 147,
+    "Wen_isoQTL": 270,
+    "GTEx_sQTL": 82
+  },
+  "n_blocks": {
+    "Wen_sQTL": 140,
+    "Wen_isoQTL": 234,
+    "GTEx_sQTL": 76
+  },
+  "shared_wen_gtex": {
+    "same_gene_same_intron": 22,
+    "same_lead_variant": 15,
+    "z_sign_concordant_fetal_vs_adult_cohort": 19
+  },
+  "sign_flips_vs_adult": {
+    "Wen_sQTL": {
+      "fetal": 5,
+      "patowary_fetal": 3,
+      "generic": 7,
+      "uniform": 13
+    },
+    "Wen_isoQTL": {
+      "fetal": 3,
+      "patowary_fetal": 1,
+      "generic": 11,
+      "uniform": 18
+    },
+    "GTEx_sQTL": {
+      "fetal": 2,
+      "patowary_fetal": 2,
+      "generic": 5,
+      "uniform": 6
+    }
+  }
+}

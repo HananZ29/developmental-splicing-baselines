@@ -1,0 +1,28 @@
+# Data are not redistributed (see README.md); one small file is listed in the E15 freeze lock.
+data/**
+!data/**/
+!data/processed/E15_baselines/cluster_eligibility.tsv.gz
+
+# Third-party code, environments, model weights, binary prediction tracks
+tools/envs/*/
+tools/src/
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.npz
+**/parts/
+
+# Caches and temporary files
+__pycache__/
+.pytest_cache/
+*.pyc
+*.part
+*.tmp
+~$*
+
+# Credentials
+.env
+.synapseConfig
+*.pem
+*.key

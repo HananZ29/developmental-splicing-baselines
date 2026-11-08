@@ -1,0 +1,22 @@
+[32m2026-11-06 17:34:00.419[0m | [1mINFO    [0m | [36mdeltasplice.models.delta_pretrain[0m:[36m__init__[0m:[36m172[0m - [1mthe number of parameters is 8075145[0m
+check: 20 variants, offsets {'acceptor': 0, 'donor': 0}, baselines [0.05, 0.2, 0.5, 0.8, 0.95, 0.35, 0.65]
+1/20
+2/20
+3/20
+4/20
+5/20
+6/20
+7/20
+8/20
+9/20
+10/20
+11/20
+12/20
+13/20
+14/20
+15/20
+16/20
+17/20
+18/20
+19/20
+20/20

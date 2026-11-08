@@ -1,0 +1,110 @@
+2026-11-05 01:27:53.518014: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2026-11-05 01:27:59.170081: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2026-11-05 01:28:17.347276: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+16/1592  33s
+32/1592  60s
+48/1592  89s
+64/1592  118s
+80/1592  146s
+96/1592  172s
+112/1592  198s
+128/1592  224s
+144/1592  251s
+160/1592  280s
+176/1592  310s
+192/1592  338s
+208/1592  362s
+224/1592  388s
+240/1592  416s
+256/1592  446s
+272/1592  476s
+288/1592  507s
+304/1592  537s
+320/1592  566s
+336/1592  595s
+352/1592  625s
+368/1592  662s
+384/1592  697s
+400/1592  727s
+416/1592  757s
+432/1592  787s
+448/1592  816s
+464/1592  845s
+480/1592  874s
+496/1592  904s
+512/1592  935s
+528/1592  965s
+544/1592  996s
+560/1592  1027s
+576/1592  1058s
+592/1592  1088s
+608/1592  1119s
+624/1592  1149s
+640/1592  1179s
+656/1592  1208s
+672/1592  1238s
+688/1592  1267s
+704/1592  1298s
+720/1592  1328s
+736/1592  1359s
+752/1592  1389s
+768/1592  1418s
+784/1592  1444s
+800/1592  1474s
+816/1592  1504s
+832/1592  1535s
+848/1592  1565s
+864/1592  1595s
+880/1592  1626s
+896/1592  1657s
+912/1592  1687s
+928/1592  1718s
+944/1592  1743s
+960/1592  1769s
+976/1592  1796s
+992/1592  1825s
+1008/1592  1852s
+1024/1592  1879s
+1040/1592  1907s
+1056/1592  1935s
+1072/1592  1965s
+1088/1592  1995s
+1104/1592  2023s
+1120/1592  2051s
+1136/1592  2080s
+1152/1592  2106s
+1168/1592  2135s
+1184/1592  2162s
+1200/1592  2191s
+1216/1592  22264s
+1232/1592  24242s
+1248/1592  24263s
+1264/1592  24282s
+1280/1592  24305s
+1296/1592  24335s
+1312/1592  24365s
+1328/1592  24393s
+1344/1592  24421s
+1360/1592  24455s
+1376/1592  24495s
+1392/1592  24535s
+1408/1592  24576s
+1424/1592  24615s
+1440/1592  24655s
+1456/1592  24695s
+1472/1592  24735s
+1488/1592  24774s
+1504/1592  24814s
+1520/1592  24856s
+1536/1592  24895s
+1552/1592  24934s
+1568/1592  24974s
+1584/1592  25013s
+1592/1592  25032s
+scored 1592 of 1592

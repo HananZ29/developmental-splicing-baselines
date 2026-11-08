@@ -1,0 +1,5 @@
+fetal_baseline	metric	fetal_minus_adult_Wen	fetal_minus_adult_GTEx	interaction	ci_low	ci_high	p_boot	role
+fetal	dir_acc_all	0.01361	0.01829	-0.004687	-0.04395	0.03041	0.83	primary (Bonferroni 0.025)
+fetal	spearman_all	-0.03653	0.009273	-0.0458	-0.1379	0.01746	0.2	primary (Bonferroni 0.025)
+patowary_fetal	dir_acc_all	0.0102	0.01829	-0.008089	-0.04312	0.02195	0.668	exploratory
+patowary_fetal	spearman_all	0.00397	0.0333	-0.02933	-0.07995	0.0132	0.199	exploratory

@@ -1,0 +1,30 @@
+{
+  "sQTL": {
+    "n_positive": 147,
+    "all_factors_one (no annotated site within window changes)": 3,
+    "sign_invariant_by_structure": 118,
+    "sign_invariant_by_structure_informative": "29 of 40",
+    "sign_flippable_in_principle": 29,
+    "random_baselines_frac_variants_with_both_signs": 0.197,
+    "observed_sign_flips_fetal_vs_adult": 5,
+    "observed_sign_flips_fetal_vs_generic": 7,
+    "max_possible_abs_diff_dir_acc_fetal_vs_adult": 0.034,
+    "spearman_signed_pred_between_random_baselines_median": 0.946,
+    "spearman_signed_pred_fetal_vs_adult": 0.954,
+    "median_ratio_absmax_random_to_abs_fetal": 125.9
+  },
+  "isoQTL": {
+    "n_positive": 270,
+    "all_factors_one (no annotated site within window changes)": 6,
+    "sign_invariant_by_structure": 201,
+    "sign_invariant_by_structure_informative": "41 of 55",
+    "sign_flippable_in_principle": 69,
+    "random_baselines_frac_variants_with_both_signs": 0.167,
+    "observed_sign_flips_fetal_vs_adult": 3,
+    "observed_sign_flips_fetal_vs_generic": 11,
+    "max_possible_abs_diff_dir_acc_fetal_vs_adult": 0.0111,
+    "spearman_signed_pred_between_random_baselines_median": 0.934,
+    "spearman_signed_pred_fetal_vs_adult": 0.962,
+    "median_ratio_absmax_random_to_abs_fetal": 201.3
+  }
+}

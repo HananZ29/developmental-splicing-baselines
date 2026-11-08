@@ -1,0 +1,102 @@
+{
+  "n_variants": 147,
+  "cluster_transcripts_total": 1670,
+  "cluster_transcripts_zero_reads": {
+    "fetal": 1411,
+    "adult": 1375,
+    "patowary": 913,
+    "d209": 1054,
+    "d334": 1002,
+    "d336": 1009
+  },
+  "target_intron_unsupported_variants": {
+    "fetal": 66,
+    "adult": 64,
+    "patowary": 29,
+    "d209": 36,
+    "d334": 34,
+    "d336": 33
+  },
+  "target_junction_present_in_patowary_annotation": 137,
+  "target_junction_reads_zero_all_donors": 10,
+  "median_cluster_reads": {
+    "fetal": 34.0,
+    "adult": 54.0,
+    "patowary": 2045.0
+  },
+  "variants_by_patowary_cluster_reads": {
+    "1-19": {
+      "n_variants": 1,
+      "median_donor_u_range": 0.0575,
+      "median_fetal_adult_u_absdiff": 0.0,
+      "median_patowary_vs_leung_fetal_u_absdiff": 0.0466,
+      "median_baseline_vs_junction_usage_absdiff": 0.2262,
+      "frac_target_unsupported_leung_fetal": 1.0,
+      "frac_target_unsupported_patowary": 1.0
+    },
+    "20-199": {
+      "n_variants": 8,
+      "median_donor_u_range": 0.0638,
+      "median_fetal_adult_u_absdiff": 0.0001,
+      "median_patowary_vs_leung_fetal_u_absdiff": 0.0753,
+      "median_baseline_vs_junction_usage_absdiff": 0.0372,
+      "frac_target_unsupported_leung_fetal": 0.625,
+      "frac_target_unsupported_patowary": 0.125
+    },
+    ">=200": {
+      "n_variants": 138,
+      "median_donor_u_range": 0.0038,
+      "median_fetal_adult_u_absdiff": 0.0001,
+      "median_patowary_vs_leung_fetal_u_absdiff": 0.0038,
+      "median_baseline_vs_junction_usage_absdiff": 0.0064,
+      "frac_target_unsupported_leung_fetal": 0.4348,
+      "frac_target_unsupported_patowary": 0.1957
+    }
+  },
+  "variants_by_leung_fetal_cluster_reads": {
+    "0": {
+      "n_variants": 6,
+      "median_donor_u_range": 0.0531,
+      "median_fetal_adult_u_absdiff": 0.0277,
+      "median_patowary_vs_leung_fetal_u_absdiff": 0.0531,
+      "median_baseline_vs_junction_usage_absdiff": 0.12,
+      "frac_target_unsupported_leung_fetal": 1.0,
+      "frac_target_unsupported_patowary": 0.1667
+    },
+    "1-19": {
+      "n_variants": 19,
+      "median_donor_u_range": 0.0101,
+      "median_fetal_adult_u_absdiff": 0.0002,
+      "median_patowary_vs_leung_fetal_u_absdiff": 0.003,
+      "median_baseline_vs_junction_usage_absdiff": 0.0395,
+      "frac_target_unsupported_leung_fetal": 0.4737,
+      "frac_target_unsupported_patowary": 0.2105
+    },
+    "20-199": {
+      "n_variants": 116,
+      "median_donor_u_range": 0.0031,
+      "median_fetal_adult_u_absdiff": 0.0001,
+      "median_patowary_vs_leung_fetal_u_absdiff": 0.0036,
+      "median_baseline_vs_junction_usage_absdiff": 0.0051,
+      "frac_target_unsupported_leung_fetal": 0.4224,
+      "frac_target_unsupported_patowary": 0.2069
+    },
+    ">=200": {
+      "n_variants": 6,
+      "median_donor_u_range": 0.0133,
+      "median_fetal_adult_u_absdiff": 0.0096,
+      "median_patowary_vs_leung_fetal_u_absdiff": 0.0061,
+      "median_baseline_vs_junction_usage_absdiff": 0.0056,
+      "frac_target_unsupported_leung_fetal": 0.3333,
+      "frac_target_unsupported_patowary": 0.0
+    }
+  },
+  "median_donor_u_range_all": 0.00481799090924151,
+  "median_fetal_adult_u_absdiff_all": 0.00012139579429643749,
+  "spearman_donor_u_across_variants": {
+    "209~334": 0.974,
+    "209~336": 0.969,
+    "334~336": 0.977
+  },
+  "spearman_u_baseline_vs_u_junction_patowary": 0.907
+}

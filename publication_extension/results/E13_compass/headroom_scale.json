@@ -1,0 +1,16 @@
+{
+  "var_dPSI_y": 0.031174370038607874,
+  "rms_dPSI_y": 0.17656265187917822,
+  "var_Dobs_between_cell_diff": 0.0060608211270547115,
+  "reliability": 0.48403881392405673,
+  "var_Dstar_reliable": 0.002933672669745427,
+  "rms_Dstar": 0.05416338864717963,
+  "H": 0.49049777398070604,
+  "unexplained_reliable_var": 0.001438959914098167,
+  "rms_unexplained": 0.037933625111478166,
+  "unexplained_as_frac_of_var_dPSI": 0.046158427975163195,
+  "explained_by_baseline_only_as_frac_of_var_dPSI": 0.047946847163106564,
+  "mean_abs_Dobs": 0.04698055395216667,
+  "frac_pairs_abs_Dobs_ge_0.1": 0.14444849387567543,
+  "H_with_replicate_averaged_baseline_(shares_noise_with_target;_approx_lower_bound)": 0.34445924637047887
+}

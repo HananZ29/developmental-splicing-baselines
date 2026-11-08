@@ -1,0 +1,63 @@
+{
+  "hg19_chr1_length": 249250621,
+  "bim_all": {
+    "snvs_tested": 200000,
+    "hg19_ref_in_A1_A2": 1.0,
+    "hg19_ref_equals_A2": 1.0,
+    "hg19_ref_equals_A1": 0.0,
+    "set": "test.bim random SNVs"
+  },
+  "bim_qtl_leads": {
+    "snvs_tested": 38837,
+    "hg19_ref_in_A1_A2": 1.0,
+    "hg19_ref_equals_A2": 1.0,
+    "hg19_ref_equals_A1": 0.0,
+    "set": "isoQTL+sQTL lead variants"
+  },
+  "gencode.v24lift37": {
+    "gt_ag_rate_hg19": 0.9818,
+    "introns_tested": 24064
+  },
+  "gencode.v31lift37": {
+    "gt_ag_rate_hg19": 0.9817,
+    "introns_tested": 22633
+  },
+  "gencode.v33lift37": {
+    "gt_ag_rate_hg19": 0.9826,
+    "introns_tested": 22478
+  },
+  "gencode.v26": {
+    "gt_ag_rate_hg19": 0.0111,
+    "introns_tested": 22823
+  },
+  "gencode.v31": {
+    "gt_ag_rate_hg19": 0.0102,
+    "introns_tested": 22689
+  },
+  "sqtl_introns_hg19[start..end]": {
+    "gt_ag_rate": 0.0,
+    "n": 17700
+  },
+  "sqtl_introns_hg19[start+1..end-1]": {
+    "gt_ag_rate": 0.9873,
+    "n": 17700
+  },
+  "sqtl_introns_hg19[start..end-1]": {
+    "gt_ag_rate": 0.0,
+    "n": 17700
+  },
+  "sqtl_introns_hg19[start+1..end]": {
+    "gt_ag_rate": 0.0,
+    "n": 17700
+  },
+  "sqanti_Fetal": {
+    "cds_start_inside_tx_v31": 0.9833,
+    "cds_start_inside_tx_v31lift37": 0.0814,
+    "n_fsm_coding": 14325
+  },
+  "sqanti_Adult": {
+    "cds_start_inside_tx_v31": 0.9818,
+    "cds_start_inside_tx_v31lift37": 0.0829,
+    "n_fsm_coding": 16713
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "MFASS": {
+    "context": [
+      "HEK293T"
+    ],
+    "replicates": "2 (R1, R2) per library; natural (reference) index per replicate",
+    "rows": 32669,
+    "variant_rows_with_v2_dpsi": 28692,
+    "unique_variants": 27756,
+    "exons": 2201,
+    "chromosomes": 24,
+    "reference_psi_per_replicate": true,
+    "abs_dpsi_ge_0.1": 6174,
+    "median_reference_inclusion": 0.945
+  },
+  "Vex-seq": {
+    "context": [
+      "K562",
+      "HepG2"
+    ],
+    "replicates": "3 per cell line; reference exon PSI per replicate",
+    "snvs": 1960,
+    "exons": 110,
+    "abs_dpsi_ge_0.1": {
+      "K562": 474,
+      "HepG2": 417
+    },
+    "median_reference_psi": {
+      "K562": 0.621,
+      "HepG2": 0.698
+    }
+  },
+  "COMPASS": {
+    "context": [
+      "HEK",
+      "HeLa",
+      "K562",
+      "MCF7",
+      "HMC3"
+    ],
+    "replicates": "2 per cell line (HEK: 2 more WT-only replicates)",
+    "rows": 87546,
+    "wt_rows": 1323,
+    "single_rows": 37933,
+    "double_rows": 48290,
+    "events_exons": 2096,
+    "events_with_wt": 1323,
+    "genes": 1733,
+    "single_with_wt": 35723,
+    "sources": {
+      "clinvar_double": 48290,
+      "clinvar_single": 31620,
+      "exac": 7551,
+      "geuvadis": 85
+    },
+    "reference_psi_per_replicate": true,
+    "note": "reference (WT) PSI measured in the same transfections/replicates as variants; replicate split required to avoid shared noise",
+    "events_lifted_hg19": 2096
+  },
+  "overlap_identical_exon_(+-5bp)": {
+    "COMPASS_exons_overlapping_MFASS": 102,
+    "COMPASS_exons_overlapping_VexSeq": 19,
+    "VexSeq_exons_overlapping_MFASS": 2
+  },
+  "overlap_within_100kb": {
+    "COMPASS_exons_near_MFASS": 771,
+    "COMPASS_exons_near_VexSeq": 62,
+    "VexSeq_exons_near_MFASS": 35
+  },
+  "expression_only_resources_(no_variant_effects)": {
+    "Leung 2021 Iso-Seq": "fetal/adult cortex transcript counts",
+    "Patowary 2024": "fetal neocortex long-read counts, 3 donors",
+    "GSE310131": "iPSC->NGN2 neuron long-read counts, 1 donor",
+    "GTEx v8 RSEM": "adult tissue transcript TPM"
+  },
+  "association_resources_(not_measured_effects)": {
+    "Wen 2024": "prenatal cortex sQTL/isoQTL leads (standardized z)",
+    "GTEx v8 Brain_Cortex sQTL": "adult cortex sQTL leads"
+  }
+}

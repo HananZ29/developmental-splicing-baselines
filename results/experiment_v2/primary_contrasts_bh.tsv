@@ -1,0 +1,17 @@
+metric	condition	estimate	ci_low	ci_high	p_boot	arm	bh_q
+auprc	fetal - adult	0.02146	-0.0112	0.05307	0.208	sQTL	0.9453
+auprc	fetal - generic	-0.01904	-0.06521	0.0276	0.434	sQTL	0.9453
+dir_acc_all	fetal - adult	0.01361	-0.01087	0.03986	0.356	sQTL	0.9453
+dir_acc_all	fetal - generic	-0.01701	-0.04851	0.009806	0.289	sQTL	0.9453
+dir_acc_informative	fetal - adult	-0.025	-0.08333	0	0.709	sQTL	0.9453
+dir_acc_informative	fetal - generic	-0.025	-0.08333	0	0.709	sQTL	0.9453
+spearman_all	fetal - adult	-0.03653	-0.114	0.01118	0.244	sQTL	0.9453
+spearman_all	fetal - generic	-0.08003	-0.167	-0.01428	0.01	sQTL	0.16
+auprc	fetal - adult	-0.005186	-0.0279	0.01902	0.672	isoQTL	0.9453
+auprc	fetal - generic	0.01069	-0.02965	0.04508	0.617	isoQTL	0.9453
+dir_acc_all	fetal - adult	0	-0.007844	0.009884	1	isoQTL	1
+dir_acc_all	fetal - generic	0.005556	-0.0155	0.02843	0.696	isoQTL	0.9453
+dir_acc_informative	fetal - adult	0	0	0	1	isoQTL	1
+dir_acc_informative	fetal - generic	0	0	0	1	isoQTL	1
+spearman_all	fetal - adult	-0.01545	-0.04378	0.01554	0.326	isoQTL	0.9453
+spearman_all	fetal - generic	0.005	-0.03343	0.04405	0.821	isoQTL	1

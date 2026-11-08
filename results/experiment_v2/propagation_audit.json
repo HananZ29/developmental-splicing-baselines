@@ -1,0 +1,154 @@
+{
+  "sQTL": {
+    "n_positive": 147,
+    "any_transcript_factor_ne_1": 147,
+    "top_spliceai_event_at_annotated_site": 64,
+    "top_event_ds>=0.2_at_unannotated_site": 3,
+    "fetal": {
+      "abs_pred_quantiles": {
+        "0.5": 4e-05,
+        "0.9": 0.00721,
+        "0.99": 0.21554,
+        "1.0": 0.22621
+      },
+      "n_abs_pred_ge_0.01": 14,
+      "n_abs_pred_ge_0.05": 7,
+      "target_at_pseudocount_weight": 61,
+      "spearman_abs_pred_vs_baseline_value": 0.135,
+      "spearman_abs_pred_vs_site_maxdelta": 0.769
+    },
+    "adult": {
+      "abs_pred_quantiles": {
+        "0.5": 4e-05,
+        "0.9": 0.01323,
+        "0.99": 0.18382,
+        "1.0": 0.50589
+      },
+      "n_abs_pred_ge_0.01": 18,
+      "n_abs_pred_ge_0.05": 6,
+      "target_at_pseudocount_weight": 64,
+      "spearman_abs_pred_vs_baseline_value": 0.173,
+      "spearman_abs_pred_vs_site_maxdelta": 0.777
+    },
+    "generic": {
+      "abs_pred_quantiles": {
+        "0.5": 0.00049,
+        "0.9": 0.03485,
+        "0.99": 0.35596,
+        "1.0": 0.56943
+      },
+      "n_abs_pred_ge_0.01": 36,
+      "n_abs_pred_ge_0.05": 13,
+      "target_at_pseudocount_weight": 21,
+      "spearman_abs_pred_vs_baseline_value": 0.129,
+      "spearman_abs_pred_vs_site_maxdelta": 0.819
+    },
+    "gtex_cortex": {
+      "abs_pred_quantiles": {
+        "0.5": 0.00033,
+        "0.9": 0.02821,
+        "0.99": 0.34756,
+        "1.0": 0.42282
+      },
+      "n_abs_pred_ge_0.01": 30,
+      "n_abs_pred_ge_0.05": 11,
+      "target_at_pseudocount_weight": 24,
+      "spearman_abs_pred_vs_baseline_value": 0.098,
+      "spearman_abs_pred_vs_site_maxdelta": 0.808
+    },
+    "uniform": {
+      "abs_pred_quantiles": {
+        "0.5": 0.00111,
+        "0.9": 0.07271,
+        "0.99": 0.45115,
+        "1.0": 0.53537
+      },
+      "n_abs_pred_ge_0.01": 48,
+      "n_abs_pred_ge_0.05": 18,
+      "target_at_pseudocount_weight": 1,
+      "spearman_abs_pred_vs_baseline_value": 0.124,
+      "spearman_abs_pred_vs_site_maxdelta": 0.861
+    },
+    "fetal_vs_adult_pred_spearman": 0.954,
+    "fetal_vs_adult_same_sign": 142,
+    "fetal_vs_adult_median_abs_diff": 1.7305384179388405e-07,
+    "fetal_vs_adult_abs_diff_ge_0.01": 16,
+    "genes_overlapping_another_same_strand_gene": "145 of 444"
+  },
+  "isoQTL": {
+    "n_positive": 270,
+    "any_transcript_factor_ne_1": 269,
+    "top_spliceai_event_at_annotated_site": 72,
+    "top_event_ds>=0.2_at_unannotated_site": 13,
+    "fetal": {
+      "abs_pred_quantiles": {
+        "0.5": 1e-05,
+        "0.9": 0.00095,
+        "0.99": 0.06078,
+        "1.0": 0.15593
+      },
+      "n_abs_pred_ge_0.01": 11,
+      "n_abs_pred_ge_0.05": 6,
+      "target_at_pseudocount_weight": 165,
+      "spearman_abs_pred_vs_baseline_value": 0.177,
+      "spearman_abs_pred_vs_site_maxdelta": 0.704
+    },
+    "adult": {
+      "abs_pred_quantiles": {
+        "0.5": 1e-05,
+        "0.9": 0.00113,
+        "0.99": 0.05188,
+        "1.0": 0.08588
+      },
+      "n_abs_pred_ge_0.01": 8,
+      "n_abs_pred_ge_0.05": 4,
+      "target_at_pseudocount_weight": 161,
+      "spearman_abs_pred_vs_baseline_value": 0.168,
+      "spearman_abs_pred_vs_site_maxdelta": 0.675
+    },
+    "generic": {
+      "abs_pred_quantiles": {
+        "0.5": 0.00021,
+        "0.9": 0.0103,
+        "0.99": 0.11777,
+        "1.0": 0.33744
+      },
+      "n_abs_pred_ge_0.01": 28,
+      "n_abs_pred_ge_0.05": 5,
+      "target_at_pseudocount_weight": 50,
+      "spearman_abs_pred_vs_baseline_value": 0.126,
+      "spearman_abs_pred_vs_site_maxdelta": 0.8
+    },
+    "gtex_cortex": {
+      "abs_pred_quantiles": {
+        "0.5": 0.00015,
+        "0.9": 0.00799,
+        "0.99": 0.1057,
+        "1.0": 0.25869
+      },
+      "n_abs_pred_ge_0.01": 24,
+      "n_abs_pred_ge_0.05": 5,
+      "target_at_pseudocount_weight": 74,
+      "spearman_abs_pred_vs_baseline_value": 0.149,
+      "spearman_abs_pred_vs_site_maxdelta": 0.785
+    },
+    "uniform": {
+      "abs_pred_quantiles": {
+        "0.5": 0.0004,
+        "0.9": 0.02239,
+        "0.99": 0.17556,
+        "1.0": 0.48241
+      },
+      "n_abs_pred_ge_0.01": 43,
+      "n_abs_pred_ge_0.05": 13,
+      "target_at_pseudocount_weight": 0,
+      "spearman_abs_pred_vs_baseline_value": 0.084,
+      "spearman_abs_pred_vs_site_maxdelta": 0.885
+    },
+    "fetal_vs_adult_pred_spearman": 0.962,
+    "fetal_vs_adult_same_sign": 267,
+    "fetal_vs_adult_median_abs_diff": 2.1958472247538608e-10,
+    "fetal_vs_adult_abs_diff_ge_0.01": 9,
+    "genes_overlapping_another_same_strand_gene": "171 of 551"
+  }
+}

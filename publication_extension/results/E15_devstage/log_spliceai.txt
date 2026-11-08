@@ -1,0 +1,96 @@
+2026-11-06 09:07:01.222211: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2026-11-06 09:07:11.084032: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+2026-11-06 09:07:41.403927: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+16/1373  35s
+32/1373  67s
+48/1373  99s
+64/1373  131s
+80/1373  166s
+96/1373  207s
+112/1373  245s
+128/1373  280s
+144/1373  315s
+160/1373  348s
+176/1373  383s
+192/1373  417s
+208/1373  453s
+224/1373  489s
+240/1373  525s
+256/1373  564s
+272/1373  605s
+288/1373  653s
+304/1373  697s
+320/1373  737s
+336/1373  779s
+352/1373  824s
+368/1373  863s
+384/1373  901s
+400/1373  938s
+416/1373  973s
+432/1373  1010s
+448/1373  1045s
+464/1373  1080s
+480/1373  1119s
+496/1373  1156s
+512/1373  1193s
+528/1373  1229s
+544/1373  1265s
+560/1373  1300s
+576/1373  1335s
+592/1373  1377s
+608/1373  1438s
+624/1373  1483s
+640/1373  1530s
+656/1373  1589s
+672/1373  1632s
+688/1373  1676s
+704/1373  1714s
+720/1373  1767s
+736/1373  1815s
+752/1373  1861s
+768/1373  1910s
+784/1373  1969s
+800/1373  2023s
+816/1373  2073s
+832/1373  2123s
+848/1373  2170s
+864/1373  2215s
+880/1373  2272s
+896/1373  2340s
+912/1373  2420s
+928/1373  2486s
+944/1373  2554s
+960/1373  2612s
+976/1373  2665s
+992/1373  2714s
+1008/1373  2755s
+1024/1373  2794s
+1040/1373  2835s
+1056/1373  2877s
+1072/1373  2912s
+1088/1373  2948s
+1104/1373  2986s
+1120/1373  3032s
+1136/1373  3073s
+1152/1373  3112s
+1168/1373  3151s
+1184/1373  3187s
+1200/1373  3229s
+1216/1373  3260s
+1232/1373  3300s
+1248/1373  3337s
+1264/1373  3369s
+1280/1373  3400s
+1296/1373  3433s
+1312/1373  3467s
+1328/1373  3501s
+1344/1373  3536s
+1360/1373  3572s
+1373/1373  3609s
+scored 1373 of 1373

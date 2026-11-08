@@ -1,0 +1,106 @@
+abundance_bin_mean_t30_lineage_reads	kind	stage	pair	pearson	spearman	n
+all	lineage	t00	gse_t00_L1~gse_t00_L2	0.99	0.958	1642
+all	lineage	t00	gse_t00_L1~gse_t00_L3	0.994	0.967	1636
+all	lineage	t00	gse_t00_L2~gse_t00_L3	0.993	0.973	1636
+all	lineage	t04	gse_t04_L1~gse_t04_L2	0.992	0.973	1624
+all	lineage	t04	gse_t04_L1~gse_t04_L3	0.997	0.985	1624
+all	lineage	t04	gse_t04_L2~gse_t04_L3	0.993	0.979	1624
+all	lineage	t30	gse_t30_L1~gse_t30_L2	0.994	0.99	1642
+all	lineage	t30	gse_t30_L1~gse_t30_L3	0.994	0.99	1642
+all	lineage	t30	gse_t30_L2~gse_t30_L3	0.996	0.993	1642
+all	well_within_lineage	t04	well_NPC_1_1~well_NPC_1_3	0.997	0.969	1624
+all	well_within_lineage	t04	well_NPC_2_1~well_NPC_2_2	0.995	0.968	1609
+all	well_within_lineage	t04	well_NPC_3_1~well_NPC_3_3	0.997	0.971	1624
+all	well_within_lineage	t30	well_CN_1_2~well_CN_1_3	0.996	0.979	1642
+all	well_within_lineage	t30	well_CN_2_1~well_CN_2_2	0.995	0.986	1642
+all	well_within_lineage	t30	well_CN_3_1~well_CN_3_2	0.997	0.982	1642
+all	stage		gse_t30~gse_t00	0.957	0.954	1642
+all	stage		gse_t30~gse_t04	0.984	0.99	1624
+all	cross_study		gse_t30~fetal	0.844	0.641	1624
+all	cross_study		gse_t30~adult	0.846	0.634	1629
+all	cross_study		gse_t30~patowary	0.879	0.756	1642
+all	leung_replicate		leung_FetalCTX1~leung_FetalCTX2	0.915	0.815	1246
+0	lineage	t00	gse_t00_L1~gse_t00_L2	0.909	1.0	1137
+0	lineage	t00	gse_t00_L1~gse_t00_L3	0.998	1.0	1134
+0	lineage	t00	gse_t00_L2~gse_t00_L3	0.924	1.0	1134
+0	lineage	t04	gse_t04_L1~gse_t04_L2	0.995	0.707	1122
+0	lineage	t04	gse_t04_L1~gse_t04_L3	0.997	0.817	1122
+0	lineage	t04	gse_t04_L2~gse_t04_L3	0.992	0.578	1122
+0	lineage	t30	gse_t30_L1~gse_t30_L2			1137
+0	lineage	t30	gse_t30_L1~gse_t30_L3			1137
+0	lineage	t30	gse_t30_L2~gse_t30_L3			1137
+0	well_within_lineage	t04	well_NPC_1_1~well_NPC_1_3	0.97	0.707	1122
+0	well_within_lineage	t04	well_NPC_2_1~well_NPC_2_2	1.0	1.0	1110
+0	well_within_lineage	t04	well_NPC_3_1~well_NPC_3_3	0.969	0.5	1122
+0	well_within_lineage	t30	well_CN_1_2~well_CN_1_3			1137
+0	well_within_lineage	t30	well_CN_2_1~well_CN_2_2			1137
+0	well_within_lineage	t30	well_CN_3_1~well_CN_3_2			1137
+0	stage		gse_t30~gse_t00			1137
+0	stage		gse_t30~gse_t04			1122
+0	cross_study		gse_t30~fetal			1128
+0	cross_study		gse_t30~adult			1129
+0	cross_study		gse_t30~patowary			1137
+0	leung_replicate		leung_FetalCTX1~leung_FetalCTX2	0.876	0.666	868
+1-9	lineage	t00	gse_t00_L1~gse_t00_L2	0.864	0.718	31
+1-9	lineage	t00	gse_t00_L1~gse_t00_L3	0.7	0.628	31
+1-9	lineage	t00	gse_t00_L2~gse_t00_L3	0.838	0.683	31
+1-9	lineage	t04	gse_t04_L1~gse_t04_L2	0.827	0.685	31
+1-9	lineage	t04	gse_t04_L1~gse_t04_L3	0.976	0.657	31
+1-9	lineage	t04	gse_t04_L2~gse_t04_L3	0.906	0.702	31
+1-9	lineage	t30	gse_t30_L1~gse_t30_L2	0.898	0.398	31
+1-9	lineage	t30	gse_t30_L1~gse_t30_L3	0.537	0.299	31
+1-9	lineage	t30	gse_t30_L2~gse_t30_L3	0.792	0.521	31
+1-9	well_within_lineage	t04	well_NPC_1_1~well_NPC_1_3	0.394	0.481	31
+1-9	well_within_lineage	t04	well_NPC_2_1~well_NPC_2_2	0.932	0.576	31
+1-9	well_within_lineage	t04	well_NPC_3_1~well_NPC_3_3	0.935	0.479	31
+1-9	well_within_lineage	t30	well_CN_1_2~well_CN_1_3	0.478	0.218	31
+1-9	well_within_lineage	t30	well_CN_2_1~well_CN_2_2	0.642	0.453	31
+1-9	well_within_lineage	t30	well_CN_3_1~well_CN_3_2	0.98	0.351	31
+1-9	stage		gse_t30~gse_t00	0.982	0.696	31
+1-9	stage		gse_t30~gse_t04	0.234	0.742	31
+1-9	cross_study		gse_t30~fetal			29
+1-9	cross_study		gse_t30~adult			29
+1-9	cross_study		gse_t30~patowary	0.508	0.457	31
+1-9	leung_replicate		leung_FetalCTX1~leung_FetalCTX2			22
+10-99	lineage	t00	gse_t00_L1~gse_t00_L2	0.946	0.794	189
+10-99	lineage	t00	gse_t00_L1~gse_t00_L3	0.942	0.834	187
+10-99	lineage	t00	gse_t00_L2~gse_t00_L3	0.983	0.9	187
+10-99	lineage	t04	gse_t04_L1~gse_t04_L2	0.905	0.82	187
+10-99	lineage	t04	gse_t04_L1~gse_t04_L3	0.976	0.951	187
+10-99	lineage	t04	gse_t04_L2~gse_t04_L3	0.917	0.852	187
+10-99	lineage	t30	gse_t30_L1~gse_t30_L2	0.93	0.916	189
+10-99	lineage	t30	gse_t30_L1~gse_t30_L3	0.967	0.916	189
+10-99	lineage	t30	gse_t30_L2~gse_t30_L3	0.974	0.949	189
+10-99	well_within_lineage	t04	well_NPC_1_1~well_NPC_1_3	0.979	0.884	187
+10-99	well_within_lineage	t04	well_NPC_2_1~well_NPC_2_2	0.936	0.838	184
+10-99	well_within_lineage	t04	well_NPC_3_1~well_NPC_3_3	0.968	0.823	187
+10-99	well_within_lineage	t30	well_CN_1_2~well_CN_1_3	0.962	0.864	189
+10-99	well_within_lineage	t30	well_CN_2_1~well_CN_2_2	0.947	0.895	189
+10-99	well_within_lineage	t30	well_CN_3_1~well_CN_3_2	0.966	0.919	189
+10-99	stage		gse_t30~gse_t00	0.777	0.606	189
+10-99	stage		gse_t30~gse_t04	0.95	0.852	187
+10-99	cross_study		gse_t30~fetal	0.648	0.355	186
+10-99	cross_study		gse_t30~adult	0.736	0.412	187
+10-99	cross_study		gse_t30~patowary	0.677	0.629	189
+10-99	leung_replicate		leung_FetalCTX1~leung_FetalCTX2	0.836	0.672	134
+>=100	lineage	t00	gse_t00_L1~gse_t00_L2	0.986	0.977	285
+>=100	lineage	t00	gse_t00_L1~gse_t00_L3	0.997	0.994	284
+>=100	lineage	t00	gse_t00_L2~gse_t00_L3	0.989	0.989	284
+>=100	lineage	t04	gse_t04_L1~gse_t04_L2	0.995	0.993	284
+>=100	lineage	t04	gse_t04_L1~gse_t04_L3	0.996	0.996	284
+>=100	lineage	t04	gse_t04_L2~gse_t04_L3	0.996	0.994	284
+>=100	lineage	t30	gse_t30_L1~gse_t30_L2	0.995	0.994	285
+>=100	lineage	t30	gse_t30_L1~gse_t30_L3	0.992	0.992	285
+>=100	lineage	t30	gse_t30_L2~gse_t30_L3	0.996	0.997	285
+>=100	well_within_lineage	t04	well_NPC_1_1~well_NPC_1_3	0.996	0.993	284
+>=100	well_within_lineage	t04	well_NPC_2_1~well_NPC_2_2	0.996	0.994	284
+>=100	well_within_lineage	t04	well_NPC_3_1~well_NPC_3_3	0.998	0.997	284
+>=100	well_within_lineage	t30	well_CN_1_2~well_CN_1_3	0.996	0.994	285
+>=100	well_within_lineage	t30	well_CN_2_1~well_CN_2_2	0.995	0.995	285
+>=100	well_within_lineage	t30	well_CN_3_1~well_CN_3_2	0.998	0.997	285
+>=100	stage		gse_t30~gse_t00	0.936	0.932	285
+>=100	stage		gse_t30~gse_t04	0.972	0.973	284
+>=100	cross_study		gse_t30~fetal	0.793	0.753	281
+>=100	cross_study		gse_t30~adult	0.81	0.742	284
+>=100	cross_study		gse_t30~patowary	0.837	0.828	285
+>=100	leung_replicate		leung_FetalCTX1~leung_FetalCTX2	0.867	0.824	222

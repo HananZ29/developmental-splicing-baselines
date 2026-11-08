@@ -1,0 +1,48 @@
+{
+  "sQTL": {
+    "positives": 147,
+    "controls": 588,
+    "positive_qval_quantiles": {
+      "0.0": 0.0,
+      "0.5": 0.0,
+      "0.9": 0.01099,
+      "1.0": 0.04789
+    },
+    "positive_genes": 146,
+    "positive_lead_variants_shared_by_>1_gene": 2,
+    "controls_within_100kb_of_any_significant_lead": 520,
+    "controls_median_dist_to_sig_lead_kb": 15.9,
+    "controls_in_genes_significant_in_isoQTL": 284,
+    "controls_in_same_block_as_a_positive": 41,
+    "blocks": 374,
+    "blocks_with_>1_positive": 7,
+    "max_variants_per_block": 12,
+    "lead_intron_annotated_and_scored": 147,
+    "n_competitor_introns_quantiles": {
+      "0.0": 2.0,
+      "0.5": 4.0,
+      "0.9": 7.0,
+      "1.0": 14.0
+    },
+    "leafcutter_cluster_rows_in_file_per_cluster_median": 1.0
+  },
+  "isoQTL": {
+    "positives": 270,
+    "controls": 1079,
+    "positive_qval_quantiles": {
+      "0.0": 0.0,
+      "0.5": 0.0,
+      "0.9": 0.00461,
+      "1.0": 0.03909
+    },
+    "positive_genes": 270,
+    "positive_lead_variants_shared_by_>1_gene": 0,
+    "controls_within_100kb_of_any_significant_lead": 921,
+    "controls_median_dist_to_sig_lead_kb": 20.0,
+    "controls_in_genes_significant_in_sQTL": 236,
+    "controls_in_same_block_as_a_positive": 267,
+    "blocks": 424,
+    "blocks_with_>1_positive": 31,
+    "max_variants_per_block": 25
+  }
+}

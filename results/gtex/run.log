@@ -1,0 +1,18 @@
+chunk 0: 3992 transcripts
+chunk 10: 43991 transcripts
+chunk 20: 83978 transcripts
+chunk 30: 123991 transcripts
+chunk 40: 163999 transcripts
+{
+  "transcripts": 199324,
+  "genes": 58174,
+  "tissues": 54,
+  "brain_tissues": 13,
+  "nonbrain_tissues": 41,
+  "cortex_validation": {
+    "reference_rows": 12561,
+    "matched": 12560,
+    "pearson_r": 1.0,
+    "max_abs_diff": 0.0
+  }
+}

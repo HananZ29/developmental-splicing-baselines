@@ -1,0 +1,22 @@
+{
+  "b_counts_max_abs_diff": {
+    "t30": 0.0,
+    "t00": 0.0,
+    "n_enst": 39157
+  },
+  "a_fsm_liftover": {
+    "sampled_fsm": 2000,
+    "multi_exon_and_in_lift37": 1696,
+    "junctions": 13721,
+    "lift_fail": 2,
+    "junctions_matching_lift37_intron": 13387,
+    "frac_junctions_matching": 0.9757,
+    "isoforms_all_junctions_match": 1635
+  },
+  "c_lead_intron_unsupported_t30_transcript_level": 44,
+  "d_lead_junction_dinucleotides_hg19": {
+    "CT..AC": 67,
+    "GT..AG": 65
+  },
+  "d_canonical_frac": 1.0
+}

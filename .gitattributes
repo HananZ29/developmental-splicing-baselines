@@ -1,0 +1,2 @@
+# Store every file byte-for-byte: the pre-registration SHA-256 locks depend on exact bytes.
+* -text

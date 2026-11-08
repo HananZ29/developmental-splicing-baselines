@@ -1,0 +1,98 @@
+{
+  "n": 147,
+  "A_prediction_sensitivity": {
+    "tau=1e-12": {
+      "fetal_|pred|<=tau": 7,
+      "adult_|pred|<=tau": 7,
+      "both_above_tau": 140,
+      "sign_flips_among_both_above_tau": 2
+    },
+    "tau=1e-06": {
+      "fetal_|pred|<=tau": 43,
+      "adult_|pred|<=tau": 45,
+      "both_above_tau": 102,
+      "sign_flips_among_both_above_tau": 1
+    },
+    "tau=0.001": {
+      "fetal_|pred|<=tau": 114,
+      "adult_|pred|<=tau": 114,
+      "both_above_tau": 27,
+      "sign_flips_among_both_above_tau": 1
+    },
+    "tau=0.01": {
+      "fetal_|pred|<=tau": 133,
+      "adult_|pred|<=tau": 129,
+      "both_above_tau": 11,
+      "sign_flips_among_both_above_tau": 1
+    },
+    "magnitude_ratio_fetal_over_adult_quantiles(nonzero)": {
+      "0.05": 0.0776,
+      "0.25": 0.8714,
+      "0.5": 1.0,
+      "0.75": 1.0237,
+      "0.95": 48.2267
+    },
+    "frac_ratio_outside_[0.5,2]": 0.257,
+    "frac_ratio_outside_[0.1,10]": 0.15,
+    "spearman_fetal_vs_adult_pred": 0.9537,
+    "spearman_abs_fetal_vs_abs_adult": 0.9524,
+    "top20_overlap_by_abs_pred": 15
+  },
+  "B_direction_accuracy_with_tolerance": {
+    "tau=0": {
+      "fetal": 0.7006802721088435,
+      "adult": 0.6870748299319728,
+      "fetal_minus_adult": 0.013605442176870763,
+      "ci": [
+        -0.01034662356321841,
+        0.039999999999999925
+      ],
+      "p_boot": 0.383
+    },
+    "tau=1e-12": {
+      "fetal": 0.6904761904761905,
+      "adult": 0.6904761904761905,
+      "fetal_minus_adult": 0.0,
+      "ci": [
+        -0.020547945205479423,
+        0.020134228187919434
+      ],
+      "p_boot": 1.0
+    },
+    "tau=1e-06": {
+      "fetal": 0.6768707482993197,
+      "adult": 0.6836734693877551,
+      "fetal_minus_adult": -0.006802721088435382,
+      "ci": [
+        -0.024137931034482696,
+        0.006849315068493178
+      ],
+      "p_boot": 0.551
+    },
+    "tau=0.001": {
+      "fetal": 0.5782312925170068,
+      "adult": 0.5782312925170068,
+      "fetal_minus_adult": 0.0,
+      "ci": [
+        -0.0273972602739726,
+        0.024681040790195508
+      ],
+      "p_boot": 1.0
+    }
+  },
+  "C_oracle_power": {
+    "truth": "y = pred_fetal + sigma*N(0,1) (fetal baseline is correct by construction)",
+    "sigma": 0.00027330810220965756,
+    "expected_fetal_dir_acc": 0.7,
+    "S": 500,
+    "power_direction_accuracy_mcnemar": 0.06,
+    "power_spearman_bootstrap": 0.948,
+    "power_pearson_on_magnitudes_bootstrap": 1.0,
+    "mean_fetal_minus_adult": {
+      "dir": 0.0136,
+      "rho": 0.052,
+      "pearson": 0.2387
+    },
+    "max_possible_dir_diff": 0.034
+  }
+}

@@ -1,0 +1,10 @@
+{
+ "pairs": 287562,
+ "intron_not_in_eligible_cluster": 190930,
+ "not_SNV": 6977,
+ "intron_liftover_fail": 6404,
+ "variant_liftover_fail": 361,
+ "candidate_rows": 639,
+ "candidate_introns(units)": 428,
+ "snvs_needing_spliceai": 353
+}

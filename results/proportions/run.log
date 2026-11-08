@@ -1,0 +1,102 @@
+{
+  "Fetal": {
+    "samples": [
+      "FetalCTX1",
+      "FetalCTX2",
+      "FetalCTX3",
+      "FetalCTX4",
+      "FetalCTX5"
+    ],
+    "reads_per_sample_retained": {
+      "FetalCTX1": 51448,
+      "FetalCTX2": 13358,
+      "FetalCTX3": 70388,
+      "FetalCTX4": 34396,
+      "FetalCTX5": 94358
+    },
+    "n_genes": 9095,
+    "n_genes_ge_min_reads": 2900,
+    "n_known_enst": 11960,
+    "novel_read_share": 0.0993,
+    "replicate_r": {
+      "FetalCTX1~FetalCTX2": 0.993,
+      "FetalCTX1~FetalCTX3": 0.977,
+      "FetalCTX1~FetalCTX4": 0.985,
+      "FetalCTX1~FetalCTX5": 0.975,
+      "FetalCTX2~FetalCTX3": 0.981,
+      "FetalCTX2~FetalCTX4": 0.995,
+      "FetalCTX2~FetalCTX5": 0.988,
+      "FetalCTX3~FetalCTX4": 0.976,
+      "FetalCTX3~FetalCTX5": 0.963,
+      "FetalCTX4~FetalCTX5": 0.982
+    },
+    "split_half_r": {
+      "mean_r": 0.972,
+      "min_r": 0.966,
+      "max_r": 0.983
+    },
+    "overdispersion": {
+      "n_features": 857,
+      "median_phi": 1.02,
+      "frac_phi_gt_2": 0.219
+    },
+    "replicate_r_median": 0.9815,
+    "ism_sensitivity_r": 0.99,
+    "ism_sensitivity_median_abs_diff": 0.001
+  },
+  "Adult": {
+    "samples": [
+      "AdultCTX1",
+      "AdultCTX2",
+      "AdultCTX3",
+      "AdultCTX4",
+      "AdultCTX5"
+    ],
+    "reads_per_sample_retained": {
+      "AdultCTX1": 76712,
+      "AdultCTX2": 119966,
+      "AdultCTX3": 98347,
+      "AdultCTX4": 117447,
+      "AdultCTX5": 148165
+    },
+    "n_genes": 10164,
+    "n_genes_ge_min_reads": 3870,
+    "n_known_enst": 14290,
+    "novel_read_share": 0.0652,
+    "replicate_r": {
+      "AdultCTX1~AdultCTX2": 0.963,
+      "AdultCTX1~AdultCTX3": 0.972,
+      "AdultCTX1~AdultCTX4": 0.963,
+      "AdultCTX1~AdultCTX5": 0.965,
+      "AdultCTX2~AdultCTX3": 0.921,
+      "AdultCTX2~AdultCTX4": 0.922,
+      "AdultCTX2~AdultCTX5": 0.917,
+      "AdultCTX3~AdultCTX4": 0.977,
+      "AdultCTX3~AdultCTX5": 0.983,
+      "AdultCTX4~AdultCTX5": 0.977
+    },
+    "split_half_r": {
+      "mean_r": 0.964,
+      "min_r": 0.933,
+      "max_r": 0.978
+    },
+    "overdispersion": {
+      "n_features": 1799,
+      "median_phi": 1.26,
+      "frac_phi_gt_2": 0.32
+    },
+    "replicate_r_median": 0.964,
+    "ism_sensitivity_r": 0.979,
+    "ism_sensitivity_median_abs_diff": 0.0094
+  },
+  "fetal_vs_adult": {
+    "min_gene_reads_each_stage": 20,
+    "shared_genes": 2139,
+    "shared_genes_multi_enst": 1409,
+    "enst_rows": 5050,
+    "enst_only_fetal_detected": 666,
+    "enst_only_adult_detected": 1100,
+    "pearson_r_multi_isoform": 0.883,
+    "frac_abs_delta_gt_0.2": 0.138
+  }
+}

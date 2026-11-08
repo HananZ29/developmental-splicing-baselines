@@ -1,0 +1,401 @@
+{
+ "test_mode": false,
+ "conventions": {
+  "T-fresh": {
+   "SA": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    }
+   },
+   "PG": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_at_modal": 0.867
+    }
+   },
+   "DS": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    }
+   }
+  },
+  "T-E13": {
+   "SA": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    }
+   },
+   "PG": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    }
+   }
+  },
+  "T-Vex (previously seen; MMSplice fitted on Vex-seq: not interpreted)": {
+   "SA": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    }
+   },
+   "PG": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_at_modal": 1.0
+    }
+   }
+  },
+  "T-MFASS (previously seen)": {
+   "SA": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_offset0": 0.54,
+     "n": 100
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_offset0": 0.63,
+     "n": 100
+    }
+   },
+   "PG": {
+    "acceptor": {
+     "modal_offset": 0,
+     "frac_offset0": 0.53,
+     "n": 100
+    },
+    "donor": {
+     "modal_offset": 0,
+     "frac_offset0": 0.54,
+     "n": 100
+    }
+   }
+  }
+ },
+ "N_DS_available": true,
+ "T-fresh_rows": {
+  "all": 13916,
+  "eligible_all_tools": 13916,
+  "dropped": {
+   "la_SA": 0,
+   "ld_SA": 0,
+   "la_PG": 0,
+   "ld_PG": 0,
+   "la_DS": 0,
+   "ld_DS": 0,
+   "mmsplice_dlogit_psi": 0
+  }
+ },
+ "gate_G-X": {
+  "per_comparator_pass": {
+   "A_SA - N_MM": false,
+   "A_SA - Rr_PG": true,
+   "A_SA - N_DS": false
+  },
+  "comparator_significantly_better": {
+   "A_SA - N_MM": false,
+   "A_SA - Rr_PG": false,
+   "A_SA - N_DS": false
+  },
+  "N_DS_included": true,
+  "pass": false,
+  "note": "pass requires all three comparators, including N_DS"
+ },
+ "T-fresh": {
+  "label": "T-fresh (all rows)",
+  "n_obs": 13916,
+  "n_families": 129,
+  "point": {
+   "A_SA": {
+    "pearson": 0.681896652945374,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.6417161684713633,
+    "mae": 0.07208344081839013
+   },
+   "A_PG": {
+    "pearson": 0.6782553799327704,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.6758772295724809,
+    "mae": 0.07438693288276688
+   },
+   "A_DS": {
+    "pearson": 0.6728043376836551,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.6216934501647073,
+    "mae": 0.07247884707864359
+   },
+   "Rr_SA": {
+    "pearson": 0.6206676375963603,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.47932687733883556
+   },
+   "Rr_PG": {
+    "pearson": 0.6352193367897818,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.5014440627768721
+   },
+   "Rr_DS": {
+    "pearson": 0.539004792053558,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.4478181539246522
+   },
+   "N_MM": {
+    "pearson": 0.6568318495920342,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.7028728813710599,
+    "mae": 0.07515758968631904
+   },
+   "K": {
+    "pearson": 0.7173509403953043,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.6402719046492453,
+    "mae": 0.0688652751618841
+   },
+   "B1": {
+    "pearson": 0.710869198535679,
+    "n": 13916,
+    "auprc_abs_dpsi_ge_0.1": 0.698190405403273,
+    "mae": 0.07156307197800134
+   }
+  },
+  "ci_pearson": {
+   "A_SA": [
+    0.6039220751409335,
+    0.7433382415429866
+   ],
+   "A_PG": [
+    0.6075570596218729,
+    0.7352408135790758
+   ],
+   "A_DS": [
+    0.5898583799570686,
+    0.7431557392984194
+   ],
+   "Rr_SA": [
+    0.5166085855058699,
+    0.7004733508205074
+   ],
+   "Rr_PG": [
+    0.5311058470878435,
+    0.7113585682595407
+   ],
+   "Rr_DS": [
+    0.4372546874109229,
+    0.6265241969012905
+   ],
+   "N_MM": [
+    0.5946498301868833,
+    0.7092840283232005
+   ],
+   "K": [
+    0.6391270090822774,
+    0.7816057271176381
+   ],
+   "B1": [
+    0.6281001686747015,
+    0.7758596153748052
+   ]
+  },
+  "contrasts": {
+   "A_SA - N_MM": {
+    "estimate": 0.025064803353339826,
+    "ci95": [
+     -0.03474466742544235,
+     0.07931876976188687
+    ],
+    "p_boot": 0.424,
+    "holm_level": 0.05,
+    "ci_holm": [
+     -0.03474466742544235,
+     0.07931876976188687
+    ],
+    "p_holm": 0.424
+   },
+   "A_SA - Rr_PG": {
+    "estimate": 0.04667731615559223,
+    "ci95": [
+     0.007217193138083238,
+     0.09343485603981035
+    ],
+    "p_boot": 0.014,
+    "holm_level": 0.016666666666666666,
+    "ci_holm": [
+     0.0009730043391809715,
+     0.1098772351256668
+    ],
+    "p_holm": 0.042
+   },
+   "A_SA - Rr_SA": {
+    "estimate": 0.061229015349013705,
+    "ci95": [
+     0.017678366223750436,
+     0.10851132178109738
+    ],
+    "p_boot": 0.004,
+    "holm_level": 0.025,
+    "ci_holm": [
+     0.01454883508057826,
+     0.11883164965188436
+    ],
+    "p_holm": 0.008
+   },
+   "A_PG - Rr_PG": {
+    "estimate": 0.04303604314298859,
+    "ci95": [
+     0.0033503301227577617,
+     0.0913827247967876
+    ],
+    "p_boot": 0.028,
+    "holm_level": 0.05,
+    "ci_holm": [
+     0.0033503301227577617,
+     0.0913827247967876
+    ],
+    "p_holm": 0.028
+   },
+   "A_DS - Rr_DS": {
+    "estimate": 0.1337995456300971,
+    "ci95": [
+     0.0731395518018302,
+     0.1886999910532984
+    ],
+    "p_boot": 0.0,
+    "holm_level": 0.016666666666666666,
+    "ci_holm": [
+     0.06223046710468948,
+     0.20478163621420545
+    ],
+    "p_holm": 0.0
+   },
+   "A_SA - A_PG": {
+    "estimate": 0.0036412730126036408,
+    "ci95": [
+     -0.02216285183354191,
+     0.02477704670524387
+    ],
+    "p_boot": 0.76
+   },
+   "A_SA - A_DS": {
+    "estimate": 0.009092315261718942,
+    "ci95": [
+     -0.01946951363565888,
+     0.040386879954126105
+    ],
+    "p_boot": 0.556
+   },
+   "A_SA - B1": {
+    "estimate": -0.028972545590304932,
+    "ci95": [
+     -0.054850373696056665,
+     -0.0022012864245152105
+    ],
+    "p_boot": 0.024
+   },
+   "A_SA - N_DS": {
+    "estimate": -0.1063473055960108,
+    "ci95": [
+     -0.14175887043333657,
+     0.002662173745288812
+    ],
+    "p_boot": 0.06,
+    "holm_level": 0.025,
+    "ci_holm": [
+     -0.14657503461390173,
+     0.012253994669918219
+    ],
+    "p_holm": 0.12
+   }
+  },
+  "mmsplice_in_range_frac": 0.9925265881000287,
+  "N_DS_subsample": {
+   "label": "T-fresh N_DS subsample",
+   "n_obs": 1710,
+   "n_families": 40,
+   "point": {
+    "A_SA": {
+     "pearson": 0.6519786098514228,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.583037788218814,
+     "mae": 0.060064258402889315
+    },
+    "A_PG": {
+     "pearson": 0.6875771353464418,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.6092641890509196,
+     "mae": 0.061902320114806376
+    },
+    "A_DS": {
+     "pearson": 0.680221362053306,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.509904588964314,
+     "mae": 0.061251800792508665
+    },
+    "Rr_SA": {
+     "pearson": 0.5223724361308842,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.38961115720709005
+    },
+    "Rr_PG": {
+     "pearson": 0.5666899225247839,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.4040361200058559
+    },
+    "Rr_DS": {
+     "pearson": 0.48506128294957707,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.34085849371020105
+    },
+    "N_MM": {
+     "pearson": 0.7137790495248746,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.671758023588113,
+     "mae": 0.05884234664506477
+    },
+    "K": {
+     "pearson": 0.7299839091283354,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.575577641918194,
+     "mae": 0.05805859168721818
+    },
+    "B1": {
+     "pearson": 0.7157307856880569,
+     "n": 1710,
+     "auprc_abs_dpsi_ge_0.1": 0.6250865570733221,
+     "mae": 0.060772850179908355
+    },
+    "N_DS": {
+     "pearson": 0.7583259154474336,
+     "n": 1710,
+     "auprc_abs_

@@ -1,0 +1,411 @@
+{
+ "parameters": {
+  "MIN_UNIT_READS": 5,
+  "MIN_POOLED": 20,
+  "MIN_UNITS": 3,
+  "MIN_ANN_SHARE": 0.95,
+  "annotation": "gencode.v31lift37.annotation.gtf.gz"
+ },
+ "brainspan_samples_used": 362,
+ "per_baseline": {
+  "F1": {
+   "n_units": 12,
+   "units": [
+    "HSB103",
+    "HSB112",
+    "HSB113",
+    "HSB114",
+    "HSB149",
+    "HSB153",
+    "HSB159",
+    "HSB178",
+    "HSB92",
+    "HSB96",
+    "HSB97",
+    "HSB98"
+   ],
+   "samples_per_unit": {
+    "HSB103": 10,
+    "HSB112": 9,
+    "HSB113": 10,
+    "HSB114": 11,
+    "HSB149": 11,
+    "HSB153": 11,
+    "HSB159": 11,
+    "HSB178": 11,
+    "HSB92": 10,
+    "HSB96": 8,
+    "HSB97": 9,
+    "HSB98": 8
+   },
+   "reads_on_wen_introns_total": 175166363,
+   "reads_on_wen_introns_per_unit": {
+    "p5": 10195677.15,
+    "p25": 13367862.25,
+    "p50": 14511673.0,
+    "p75": 16456944.5,
+    "p95": 18285884.45,
+    "n": 12
+   },
+   "wen_introns_with_>=1_read": 192884,
+   "clusters_coverage_ok(E2_single)": 46379,
+   "clusters_coverage_and_annshare_ok": 41712,
+   "clusters_coverage_ok_and_E1": 20978,
+   "pooled_annotated_reads_per_eligible_cluster": {
+    "p5": 133.0,
+    "p25": 678.75,
+    "p50": 1977.0,
+    "p75": 4952.0,
+    "p95": 17860.75,
+    "n": 18496
+   }
+  },
+  "F1_all": {
+   "n_units": 13,
+   "units": [
+    "HSB103",
+    "HSB112",
+    "HSB113",
+    "HSB114",
+    "HSB149",
+    "HSB153",
+    "HSB155",
+    "HSB159",
+    "HSB178",
+    "HSB92",
+    "HSB96",
+    "HSB97",
+    "HSB98"
+   ],
+   "samples_per_unit": {
+    "HSB103": 10,
+    "HSB112": 9,
+    "HSB113": 10,
+    "HSB114": 11,
+    "HSB149": 11,
+    "HSB153": 11,
+    "HSB155": 1,
+    "HSB159": 11,
+    "HSB178": 11,
+    "HSB92": 10,
+    "HSB96": 8,
+    "HSB97": 9,
+    "HSB98": 8
+   },
+   "reads_on_wen_introns_total": 175581146,
+   "reads_on_wen_introns_per_unit": {
+    "p5": 6220555.800000001,
+    "p25": 12426100.0,
+    "p50": 14426740.0,
+    "p75": 16452576.0,
+    "p95": 18132631.399999995,
+    "n": 13
+   },
+   "wen_introns_with_>=1_read": 192968,
+   "clusters_coverage_ok(E2_single)": 46388,
+   "clusters_coverage_and_annshare_ok": 41715,
+   "clusters_coverage_ok_and_E1": 20978,
+   "pooled_annotated_reads_per_eligible_cluster": {
+    "p5": 134.0,
+    "p25": 682.0,
+    "p50": 1982.0,
+    "p75": 4962.0,
+    "p95": 17889.75,
+    "n": 18496
+   }
+  },
+  "A1": {
+   "n_units": 8,
+   "units": [
+    "HSB105",
+    "HSB123",
+    "HSB126",
+    "HSB127",
+    "HSB130",
+    "HSB135",
+    "HSB136",
+    "HSB145"
+   ],
+   "samples_per_unit": {
+    "HSB105": 11,
+    "HSB123": 11,
+    "HSB126": 11,
+    "HSB127": 11,
+    "HSB130": 11,
+    "HSB135": 10,
+    "HSB136": 9,
+    "HSB145": 11
+   },
+   "reads_on_wen_introns_total": 99120872,
+   "reads_on_wen_introns_per_unit": {
+    "p5": 8086934.85,
+    "p25": 12006811.0,
+    "p50": 13048718.0,
+    "p75": 13801032.75,
+    "p95": 14991298.049999999,
+    "n": 8
+   },
+   "wen_introns_with_>=1_read": 175941,
+   "clusters_coverage_ok(E2_single)": 44714,
+   "clusters_coverage_and_annshare_ok": 40642,
+   "clusters_coverage_ok_and_E1": 20590,
+   "pooled_annotated_reads_per_eligible_cluster": {
+    "p5": 80.0,
+    "p25": 352.0,
+    "p50": 955.0,
+    "p75": 2488.0,
+    "p95": 9495.5,
+    "n": 18496
+   }
+  },
+  "G": {
+   "n_units": 54,
+   "units": "54 GTEx tissues",
+   "samples_per_unit": null,
+   "reads_on_wen_introns_total": 81836006016,
+   "reads_on_wen_introns_per_unit": {
+    "p5": 45410208.550000004,
+    "p25": 724935322.75,
+    "p50": 1067025678.5,
+    "p75": 2345248038.5,
+    "p95": 3573502906.949999,
+    "n": 54
+   },
+   "wen_introns_with_>=1_read": 123142,
+   "clusters_coverage_ok(E2_single)": 48417,
+   "clusters_coverage_and_annshare_ok": 48387,
+   "clusters_coverage_ok_and_E1": 24281,
+   "pooled_annotated_reads_per_eligible_cluster": {
+    "p5": 90655.5,
+    "p25": 365106.75,
+    "p50": 872422.0,
+    "p75": 2026416.0,
+    "p95": 6913743.25,
+    "n": 18496
+   }
+  },
+  "G_nonbrain": {
+   "n_units": 41,
+   "units": "41 GTEx tissues",
+   "samples_per_unit": null,
+   "reads_on_wen_introns_total": 71748380795,
+   "reads_on_wen_introns_per_unit": {
+    "p5": 41613723.0,
+    "p25": 852566146.0,
+    "p50": 1601047785.0,
+    "p75": 2665139172.0,
+    "p95": 3729943384.0,
+    "n": 41
+   },
+   "wen_introns_with_>=1_read": 123134,
+   "clusters_coverage_ok(E2_single)": 48395,
+   "clusters_coverage_and_annshare_ok": 48366,
+   "clusters_coverage_ok_and_E1": 24269,
+   "pooled_annotated_reads_per_eligible_cluster": {
+    "p5": 51319.75,
+    "p25": 291565.75,
+    "p50": 740839.5,
+    "p75": 1756616.5,
+    "p95": 6076654.25,
+    "n": 18496
+   }
+  }
+ },
+ "eligibility_waterfall": {
+  "wen_clusters": 50311,
+  "E1_>=2_annotated_introns": 32777,
+  "E1_and_rank_ok": 24573,
+  "E1_and_E2_coverage_F1_A1_G": 22327,
+  "E1_and_E4_all_annotated_introns_in_GTEx": 22354,
+  "E1_E4_and_E2_coverage_F1_A1_G": 20792,
+  "E1_E2_E3_E4_eligible": 18496,
+  "eligible_introns": 88471,
+  "eligible_annotated_introns": 58799
+ },
+ "F1_stability": {
+  "method": "leave-one-donor-out over 12 F1 donors; donor bootstrap B=200, seed 20261106",
+  "lodo_per_donor": {
+   "HSB103": {
+    "median_cluster_max_abs_du": 0.00324355990976187,
+    "frac_clusters_max_abs_du_>0.05": 0.0022707612456747406,
+    "frac_clusters_max_abs_du_>0.10": 0.00021626297577854672
+   },
+   "HSB112": {
+    "median_cluster_max_abs_du": 0.0035762500478875164,
+    "frac_clusters_max_abs_du_>0.05": 0.005028114186851211,
+    "frac_clusters_max_abs_du_>0.10": 0.00037846020761245675
+   },
+   "HSB113": {
+    "median_cluster_max_abs_du": 0.002785569053242176,
+    "frac_clusters_max_abs_du_>0.05": 0.0023248269896193772,
+    "frac_clusters_max_abs_du_>0.10": 0.0002703287197231834
+   },
+   "HSB114": {
+    "median_cluster_max_abs_du": 0.0024021890491446735,
+    "frac_clusters_max_abs_du_>0.05": 0.002487024221453287,
+    "frac_clusters_max_abs_du_>0.10": 0.00037846020761245675
+   },
+   "HSB149": {
+    "median_cluster_max_abs_du": 0.003053400138316481,
+    "frac_clusters_max_abs_du_>0.05": 0.0021626297577854673,
+    "frac_clusters_max_abs_du_>0.10": 0.0
+   },
+   "HSB153": {
+    "median_cluster_max_abs_du": 0.0026166921232082026,
+    "frac_clusters_max_abs_du_>0.05": 0.003676470588235294,
+    "frac_clusters_max_abs_du_>0.10": 0.0006487889273356401
+   },
+   "HSB159": {
+    "median_cluster_max_abs_du": 0.0038750895734337293,
+    "frac_clusters_max_abs_du_>0.05": 0.004974048442906574,
+    "frac_clusters_max_abs_du_>0.10": 0.0004865916955017301
+   },
+   "HSB178": {
+    "median_cluster_max_abs_du": 0.003395329759490223,
+    "frac_clusters_max_abs_du_>0.05": 0.005136245674740484,
+    "frac_clusters_max_abs_du_>0.10": 0.0009191176470588235
+   },
+   "HSB92": {
+    "median_cluster_max_abs_du": 0.0030271147003269605,
+    "frac_clusters_max_abs_du_>0.05": 0.004271193771626298,
+    "frac_clusters_max_abs_du_>0.10": 0.0007569204152249135
+   },
+   "HSB96": {
+    "median_cluster_max_abs_du": 0.0031381731177623773,
+    "frac_clusters_max_abs_du_>0.05": 0.0029736159169550173,
+    "frac_clusters_max_abs_du_>0.10": 0.00016219723183391003
+   },
+   "HSB97": {
+    "median_cluster_max_abs_du": 0.0027739782793586576,
+    "frac_clusters_max_abs_du_>0.05": 0.003568339100346021,
+    "frac_clusters_max_abs_du_>0.10": 0.0004865916955017301
+   },
+   "HSB98": {
+    "median_cluster_max_abs_du": 0.00326132664212464,
+    "frac_clusters_max_abs_du_>0.05": 0.0029195501730103807,
+    "frac_clusters_max_abs_du_>0.10": 0.00037846020761245675
+   }
+  },
+  "lodo_worst_case_cluster_max_abs_du_eligible": {
+   "p5": 0.0005608269309720946,
+   "p25": 0.00465581347732071,
+   "p50": 0.009817289353533543,
+   "p75": 0.017119479758723827,
+   "p95": 0.038340434569174756,
+   "n": 18496
+  },
+  "frac_eligible_clusters_worst_lodo_max_abs_du_>0.05": 0.024978373702422146,
+  "bootstrap_sd_usage_F1_eligible_annotated_introns": {
+   "p5": 0.0,
+   "p25": 0.0030427114839159195,
+   "p50": 0.010016275147667435,
+   "p75": 0.019252104781659084,
+   "p95": 0.04318129645618461,
+   "n": 58799
+  },
+  "bootstrap_sd_usage_A1_eligible_annotated_introns": {
+   "p5": 0.0,
+   "p25": 0.0038006193659467446,
+   "p50": 0.013136735785034919,
+   "p75": 0.025774920056763802,
+   "p95": 0.05418982643475666,
+   "n": 58799
+  },
+  "lodo_worst_case_max_abs_dw_pattern_weights_eligible": {
+   "p5": 8.298149833040143e-11,
+   "p25": 0.002204086666289018,
+   "p50": 0.008185370048327645,
+   "p75": 0.02282122758177671,
+   "p95": 0.0591898243507827,
+   "n": 18496
+  },
+  "F1_vs_A1_cluster_max_abs_usage_difference_eligible": {
+   "p5": 0.0011492956974809396,
+   "p25": 0.011856395830714838,
+   "p50": 0.03422380741550288,
+   "p75": 0.07686603331207296,
+   "p95": 0.2169889501718256,
+   "n": 18496
+  },
+  "frac_eligible_clusters_F1_A1_distinguishable(|du|>0.05_and_>2_bootstrap_SE)": 0.2719506920415225
+ },
+ "exclusion_bias": {
+  "universe": "clusters passing E1 and F1's own coverage/annotation-share criteria",
+  "n": 20978,
+  "n_eligible": 18496,
+  "frac_lost_E4_annotated_intron_missing_from_GTEx": 0.06749928496520163,
+  "frac_lost_A1_coverage_or_share": 0.058060825626847175,
+  "frac_lost_G_coverage": 0.006101630279340261,
+  "by_F1_expression_quartile": {
+   "Q1": {
+    "n": 5237,
+    "frac_retained": 0.7699064349818598,
+    "frac_lost_A1_coverage": 0.10712239831964865,
+    "frac_lost_G_coverage": 0.009738399847240786
+   },
+   "Q2": {
+    "n": 5252,
+    "frac_retained": 0.8844249809596344,
+    "frac_lost_A1_coverage": 0.015803503427265803,
+    "frac_lost_G_coverage": 0.005902513328255902
+   },
+   "Q3": {
+    "n": 5244,
+    "frac_retained": 0.9265827612509535,
+    "frac_lost_A1_coverage": 0.003432494279176201,
+    "frac_lost_G_coverage": 0.0032418001525553013
+   },
+   "Q4": {
+    "n": 5245,
+    "frac_retained": 0.9456625357483317,
+    "frac_lost_A1_coverage": 0.0007626310772163965,
+    "frac_lost_G_coverage": 0.005529075309818875
+   }
+  },
+  "F1_pooled_reads_retained_vs_excluded": {
+   "retained": {
+    "p5": 133.0,
+    "p25": 678.75,
+    "p50": 1977.0,
+    "p75": 4952.0,
+    "p95": 17860.75,
+    "n": 18496
+   },
+   "excluded": {
+    "p5": 50.0,
+    "p25": 176.25,
+    "p50": 609.5,
+    "p75": 1994.0,
+    "p95": 8728.299999999983,
+    "n": 2482
+   }
+  },
+  "fetal_only_expressed(F1_ok_but_A1_coverage_fails)": {
+   "n": 666,
+   "frac_of_F1_ok": 0.031747545047192294
+  },
+  "by_F1_vs_A1_difference(F1_and_A1_covered)": {
+   "max|du|0-0.05": {
+    "n": 12028,
+    "frac_retained(G_requirement)": 0.9423844363152644
+   },
+   "max|du|0.05-0.1": {
+    "n": 4093,
+    "frac_retained(G_requirement)": 0.9315905204006841
+   },
+   "max|du|0.1-0.2": {
+    "n": 2446,
+    "frac_retained(G_requirement)": 0.9255928045789044
+   },
+   "max|du|0.2-1.01": {
+    "n": 1193,
+    "frac_retained(G_requirement)": 0.9086336965632859
+   }
+  },
+  "F1_covered_clusters_lost_to_annotation_rules(E1_or_E3)": {
+   "n_F1_covered": 46379,
+   "frac_failing_E1": 0.4941029345177774,
+   "frac_failing_F1_annotated_share": 0.10062743914271545
+  }
+ }
+}

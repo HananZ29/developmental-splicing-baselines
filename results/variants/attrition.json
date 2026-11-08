@@ -1,0 +1,85 @@
+{
+  "genes_fetal_adult_ge20": 2139,
+  "genes_G_autosomal_ge2_tx": 1969,
+  "sQTL": {
+    "sig_rows": 8191,
+    "sig_in_G": 790,
+    "filter_outcomes": {
+      "far_from_splice_site": 295,
+      "eligible": 147,
+      "intron_not_annotated": 205,
+      "not_snv": 80,
+      "no_competitor_intron": 63
+    },
+    "null_genes": 495,
+    "control_pool": 10812,
+    "controls_by_bin": {
+      "2": {
+        "positives": 48,
+        "controls": 192
+      },
+      "3": {
+        "positives": 41,
+        "controls": 164
+      },
+      "4": {
+        "positives": 26,
+        "controls": 104
+      },
+      "1": {
+        "positives": 25,
+        "controls": 100
+      },
+      "0": {
+        "positives": 7,
+        "controls": 28
+      }
+    },
+    "final": {
+      "positives": 147,
+      "controls": 588,
+      "genes_positive": 146,
+      "genes_control": 298
+    }
+  },
+  "isoQTL": {
+    "sig_rows": 11861,
+    "sig_in_G": 1155,
+    "filter_outcomes": {
+      "far_from_splice_site": 696,
+      "eligible": 270,
+      "not_snv": 189
+    },
+    "null_genes": 357,
+    "control_pool": 6818,
+    "controls_by_bin": {
+      "3": {
+        "positives": 93,
+        "controls": 372
+      },
+      "2": {
+        "positives": 74,
+        "controls": 296
+      },
+      "4": {
+        "positives": 59,
+        "controls": 236
+      },
+      "1": {
+        "positives": 36,
+        "controls": 144
+      },
+      "0": {
+        "positives": 8,
+        "controls": 31
+      }
+    },
+    "final": {
+      "positives": 270,
+      "controls": 1079,
+      "genes_positive": 270,
+      "genes_control": 281
+    }
+  },
+  "unique_variant_strand_to_score": 1996
+}

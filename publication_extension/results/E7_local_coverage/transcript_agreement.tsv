@@ -1,0 +1,31 @@
+abundance_bin_mean_donor_reads	pair	pearson	spearman	n_transcripts
+all	d209~d334	0.989	0.889	1659
+all	d209~d336	0.988	0.897	1659
+all	d334~d336	0.989	0.904	1670
+all	patowary~fetal	0.925	0.645	1634
+all	fetal~adult	0.918	0.78	1634
+all	leung_FetalCTX1~leung_FetalCTX2	0.915	0.815	1246
+0	d209~d334			903
+0	d209~d336			903
+0	d334~d336			913
+0	patowary~fetal			892
+0	fetal~adult	0.74	0.491	892
+0	leung_FetalCTX1~leung_FetalCTX2	0.971	1.0	681
+1-9	d209~d334	0.796	0.445	387
+1-9	d209~d336	0.691	0.482	387
+1-9	d334~d336	0.945	0.529	388
+1-9	patowary~fetal	0.347	0.295	378
+1-9	fetal~adult	0.644	0.355	378
+1-9	leung_FetalCTX1~leung_FetalCTX2	0.06	0.343	283
+10-99	d209~d334	0.978	0.922	189
+10-99	d209~d336	0.98	0.894	189
+10-99	d334~d336	0.984	0.933	189
+10-99	patowary~fetal	0.724	0.457	186
+10-99	fetal~adult	0.564	0.398	186
+10-99	leung_FetalCTX1~leung_FetalCTX2	0.619	0.419	137
+>=100	d209~d334	0.962	0.972	180
+>=100	d209~d336	0.956	0.968	180
+>=100	d334~d336	0.96	0.973	180
+>=100	patowary~fetal	0.885	0.842	178
+>=100	fetal~adult	0.887	0.871	178
+>=100	leung_FetalCTX1~leung_FetalCTX2	0.838	0.79	145

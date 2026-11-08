@@ -1,0 +1,15 @@
+{
+ "decision": "D3-B (user, 2026-11-06)",
+ "r_rank_normal_F1_A1": 0.9740357430369087,
+ "MEI": 0.0228,
+ "definition": "0.10*sqrt(2*(1-r))",
+ "scenario": "fetal-favourable, rho_F1=0.20, delta_rho=MEI",
+ "mean_delta_rho": 0.0225553943177386,
+ "power_F1-A1": 0.984,
+ "mc_se": 0.00561141693336006,
+ "typeI_max_from_gate0_power.json": 0.018,
+ "verdict": "PASS",
+ "R_SIMS": 500,
+ "B_BOOT": 500,
+ "seed": 20261107
+}

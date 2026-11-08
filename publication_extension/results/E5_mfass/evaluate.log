@@ -1,0 +1,89 @@
+{
+  "convention_check_ref_only": {
+    "acceptor": {
+      "modal_offset": 0,
+      "frac_offset0": 0.54,
+      "n": 100
+    },
+    "donor": {
+      "modal_offset": 0,
+      "frac_offset0": 0.63,
+      "n": 100
+    }
+  },
+  "n_scored": 3000,
+  "n_test_variants": 1473,
+  "n_test_exons": 753,
+  "calibrated_k_train": 3.4873,
+  "corr_measured_baseline_with_dpsi_test": -0.553,
+  "frac_test_abs_dpsi_ge_0.1": 0.18,
+  "point": {
+    "P0_raw": {
+      "spearman": 0.1616655303448302,
+      "pearson": 0.47407061290732166,
+      "mae": 0.08563848172094699,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P1_prop_measured": {
+      "spearman": 0.1587279829213909,
+      "pearson": 0.3877297216696882,
+      "mae": 0.0843578640075263,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P2_prop_constant": {
+      "spearman": 0.1597431045413613,
+      "pearson": 0.3971016987178008,
+      "mae": 0.08396877657434966,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P3_prop_shuffled": {
+      "spearman": 0.15822428286378995,
+      "pearson": 0.38121877254073255,
+      "mae": 0.08456585158632295,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P4_prop_half": {
+      "spearman": 0.1597431045413613,
+      "pearson": 0.4610151125198364,
+      "mae": 0.08502451307642588,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P5_calibrated": {
+      "spearman": 0.15905020227282451,
+      "pearson": 0.46019562945681824,
+      "mae": 0.08177401295189565,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P6_null_permuted_factor": {
+      "spearman": 0.016209612470310202,
+      "pearson": -0.013863003704573065,
+      "mae": 0.0939860590888107,
+      "dir_acc_abs_dpsi_ge_0.1": 0.5169811320754717
+    }
+  }
+}
+                                      contrast                   metric  estimate  ci_low  ci_high  p_boot                       family
+0          P1_prop_measured - P2_prop_constant                  pearson   -0.0094 -0.0307   0.0062   0.294  primary (Bonferroni 0.0125)
+1          P1_prop_measured - P2_prop_constant                 spearman   -0.0010 -0.0118   0.0099   0.846                    secondary
+2          P1_prop_measured - P2_prop_constant                      mae    0.0004 -0.0002   0.0011   0.179  primary (Bonferroni 0.0125)
+3          P1_prop_measured - P2_prop_constant  dir_acc_abs_dpsi_ge_0.1    0.0000  0.0000   0.0000   1.000                    secondary
+4          P1_prop_measured - P3_prop_shuffled                  pearson    0.0065 -0.0182   0.0313   0.681  primary (Bonferroni 0.0125)
+5          P1_prop_measured - P3_prop_shuffled                 spearman    0.0005 -0.0115   0.0123   0.958                    secondary
+6          P1_prop_measured - P3_prop_shuffled                      mae   -0.0002 -0.0011   0.0006   0.678  primary (Bonferroni 0.0125)
+7          P1_prop_measured - P3_prop_shuffled  dir_acc_abs_dpsi_ge_0.1    0.0000  0.0000   0.0000   1.000                    secondary
+8                    P1_prop_measured - P0_raw                  pearson   -0.0863 -0.1574  -0.0344   0.000                    secondary
+9                    P1_prop_measured - P0_raw                 spearman   -0.0029 -0.0150   0.0097   0.636                    secondary
+10                   P1_prop_measured - P0_raw                      mae   -0.0013 -0.0045   0.0021   0.457                    secondary
+11                   P1_prop_measured - P0_raw  dir_acc_abs_dpsi_ge_0.1    0.0000  0.0000   0.0000   1.000                    secondary
+12            P5_calibrated - P1_prop_measured                  pearson    0.0725  0.0246   0.1342   0.001                    secondary
+13            P5_calibrated - P1_prop_measured                 spearman    0.0003  0.0001   0.0006   0.000                    secondary
+14            P5_calibrated - P1_prop_measured                      mae   -0.0026 -0.0050  -0.0003   0.023                    secondary
+15            P5_calibrated - P1_prop_measured  dir_acc_abs_dpsi_ge_0.1    0.0000  0.0000   0.0000   1.000                    secondary
+16  P1_prop_measured - P6_null_permuted_factor                  pearson    0.4016  0.2681   0.5177   0.000                    secondary
+17  P1_prop_measured - P6_null_permuted_factor                 spearman    0.1425  0.0581   0.2258   0.001                    secondary
+18  P1_prop_measured - P6_null_permuted_factor                      mae   -0.0096 -0.0148  -0.0052   0.000                    secondary
+19  P1_prop_measured - P6_null_permuted_factor  dir_acc_abs_dpsi_ge_0.1    0.1283  0.0423   0.2090   0.004                    secondary
+20             P1_prop_measured - P4_prop_half                  pearson   -0.0733 -0.1355  -0.0286   0.000                    secondary
+21             P1_prop_measured - P4_prop_half                 spearman   -0.0010 -0.0118   0.0099   0.846                    secondary
+22             P1_prop_measured - P4_prop_half                      mae   -0.0007 -0.0023   0.0009   0.440                    secondary
+23             P1_prop_measured - P4_prop_half  dir_acc_abs_dpsi_ge_0.1    0.0000  0.0000   0.0000   1.000                    secondary

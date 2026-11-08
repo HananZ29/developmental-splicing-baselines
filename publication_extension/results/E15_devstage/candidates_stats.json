@@ -1,0 +1,12 @@
+{
+ "clusters_conflicting_strand": 2,
+ "clusters_E1": 24573,
+ "clusters_E1_E4": 22360,
+ "clusters_E1_E4_single_strand": 22358,
+ "susie_rows": 560688,
+ "rows_phenotype_in_E1_E4_cluster_annotated_intron": 122387,
+ "rows_not_SNV": 9076,
+ "candidate_rows": 2328,
+ "candidate_credible_sets": 1917,
+ "unique_snvs_to_score": 1373
+}

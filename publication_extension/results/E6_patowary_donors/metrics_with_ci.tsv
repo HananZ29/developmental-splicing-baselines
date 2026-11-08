@@ -1,0 +1,157 @@
+arm	metric	condition	estimate	ci_low	ci_high	p_boot
+Wen_sQTL	dir_acc_all	fetal	0.7007	0.6258	0.7708	
+Wen_sQTL	spearman_all	fetal	0.42	0.265	0.5546	
+Wen_sQTL	dir_acc_informative	fetal	0.9	0.8	0.9778	
+Wen_sQTL	spearman_informative	fetal	0.6854	0.4358	0.8362	
+Wen_sQTL	dir_acc_all	adult	0.6871	0.6126	0.7619	
+Wen_sQTL	spearman_all	adult	0.4565	0.31	0.5852	
+Wen_sQTL	dir_acc_informative	adult	0.925	0.8378	1	
+Wen_sQTL	spearman_informative	adult	0.8116	0.6515	0.9015	
+Wen_sQTL	dir_acc_all	patowary_fetal	0.6973	0.625	0.7724	
+Wen_sQTL	spearman_all	patowary_fetal	0.4605	0.3151	0.5903	
+Wen_sQTL	dir_acc_informative	patowary_fetal	0.925	0.8378	1	
+Wen_sQTL	spearman_informative	patowary_fetal	0.8107	0.6595	0.8984	
+Wen_sQTL	dir_acc_all	patowary_d209	0.7075	0.6354	0.7804	
+Wen_sQTL	spearman_all	patowary_d209	0.4572	0.3124	0.588	
+Wen_sQTL	dir_acc_informative	patowary_d209	0.925	0.8378	1	
+Wen_sQTL	spearman_informative	patowary_d209	0.8039	0.6413	0.8921	
+Wen_sQTL	dir_acc_all	patowary_d334	0.6939	0.6199	0.7685	
+Wen_sQTL	spearman_all	patowary_d334	0.4527	0.3076	0.5818	
+Wen_sQTL	dir_acc_informative	patowary_d334	0.925	0.8378	1	
+Wen_sQTL	spearman_informative	patowary_d334	0.8152	0.6623	0.902	
+Wen_sQTL	dir_acc_all	patowary_d336	0.6871	0.6115	0.7633	
+Wen_sQTL	spearman_all	patowary_d336	0.4565	0.3134	0.5845	
+Wen_sQTL	dir_acc_informative	patowary_d336	0.925	0.8378	1	
+Wen_sQTL	spearman_informative	patowary_d336	0.8096	0.6596	0.8974	
+Wen_sQTL	dir_acc_all	patowary_d209 - adult	0.02041	0	0.04576	0.101
+Wen_sQTL	spearman_all	patowary_d209 - adult	0.000724	-0.02672	0.02915	0.945
+Wen_sQTL	dir_acc_informative	patowary_d209 - adult	0	0	0	1
+Wen_sQTL	spearman_informative	patowary_d209 - adult	-0.007692	-0.06288	0.05085	0.666
+Wen_sQTL	dir_acc_all	patowary_d334 - adult	0.006803	-0.006944	0.02448	0.581
+Wen_sQTL	spearman_all	patowary_d334 - adult	-0.003781	-0.02516	0.01795	0.768
+Wen_sQTL	dir_acc_informative	patowary_d334 - adult	0	0	0	1
+Wen_sQTL	spearman_informative	patowary_d334 - adult	0.003565	-0.03512	0.05142	0.967
+Wen_sQTL	dir_acc_all	patowary_d336 - adult	0	-0.01399	0.01724	1
+Wen_sQTL	spearman_all	patowary_d336 - adult	-1.601e-05	-0.01891	0.02102	0.993
+Wen_sQTL	dir_acc_informative	patowary_d336 - adult	0	0	0	1
+Wen_sQTL	spearman_informative	patowary_d336 - adult	-0.002064	-0.04193	0.03517	0.824
+Wen_sQTL	dir_acc_all	fetal - adult	0.01361	-0.01035	0.04	0.383
+Wen_sQTL	spearman_all	fetal - adult	-0.03653	-0.1172	0.01248	0.262
+Wen_sQTL	dir_acc_informative	fetal - adult	-0.025	-0.08333	0	0.706
+Wen_sQTL	spearman_informative	fetal - adult	-0.1263	-0.3393	0.005186	0.07
+Wen_sQTL	dir_acc_all	patowary_d209 - patowary_d334	0.01361	-0.003497	0.03741	0.283
+Wen_sQTL	spearman_all	patowary_d209 - patowary_d334	0.004505	-0.01125	0.02083	0.589
+Wen_sQTL	dir_acc_informative	patowary_d209 - patowary_d334	0	0	0	1
+Wen_sQTL	spearman_informative	patowary_d209 - patowary_d334	-0.01126	-0.05443	0.02837	0.511
+Wen_sQTL	dir_acc_all	patowary_d209 - patowary_d336	0.02041	0	0.04795	0.124
+Wen_sQTL	spearman_all	patowary_d209 - patowary_d336	0.00074	-0.01951	0.01901	0.924
+Wen_sQTL	dir_acc_informative	patowary_d209 - patowary_d336	0	0	0	1
+Wen_sQTL	spearman_informative	patowary_d209 - patowary_d336	-0.005629	-0.06335	0.04568	0.823
+Wen_sQTL	dir_acc_all	patowary_d334 - patowary_d336	0.006803	0	0.02098	0.752
+Wen_sQTL	spearman_all	patowary_d334 - patowary_d336	-0.003765	-0.01541	0.007858	0.554
+Wen_sQTL	dir_acc_informative	patowary_d334 - patowary_d336	0	0	0	1
+Wen_sQTL	spearman_informative	patowary_d334 - patowary_d336	0.005629	-0.03256	0.05062	0.768
+Wen_isoQTL	dir_acc_all	fetal	0.5981	0.5412	0.6526	
+Wen_isoQTL	spearman_all	fetal	0.2602	0.1375	0.3744	
+Wen_isoQTL	dir_acc_informative	fetal	0.8364	0.7308	0.9265	
+Wen_isoQTL	spearman_informative	fetal	0.6357	0.4178	0.7878	
+Wen_isoQTL	dir_acc_all	adult	0.5981	0.5424	0.6521	
+Wen_isoQTL	spearman_all	adult	0.2756	0.1562	0.3893	
+Wen_isoQTL	dir_acc_informative	adult	0.8364	0.7308	0.9265	
+Wen_isoQTL	spearman_informative	adult	0.6476	0.4211	0.8044	
+Wen_isoQTL	dir_acc_all	patowary_fetal	0.6019	0.546	0.6557	
+Wen_isoQTL	spearman_all	patowary_fetal	0.2813	0.1632	0.3954	
+Wen_isoQTL	dir_acc_informative	patowary_fetal	0.8364	0.7308	0.9265	
+Wen_isoQTL	spearman_informative	patowary_fetal	0.6555	0.4233	0.8292	
+Wen_isoQTL	dir_acc_all	patowary_d209	0.5944	0.5374	0.6487	
+Wen_isoQTL	spearman_all	patowary_d209	0.2804	0.1644	0.395	
+Wen_isoQTL	dir_acc_informative	patowary_d209	0.8364	0.7308	0.9265	
+Wen_isoQTL	spearman_informative	patowary_d209	0.6804	0.4629	0.8269	
+Wen_isoQTL	dir_acc_all	patowary_d334	0.6	0.5434	0.6544	
+Wen_isoQTL	spearman_all	patowary_d334	0.2758	0.1555	0.3906	
+Wen_isoQTL	dir_acc_informative	patowary_d334	0.8364	0.7308	0.9265	
+Wen_isoQTL	spearman_informative	patowary_d334	0.6928	0.4688	0.839	
+Wen_isoQTL	dir_acc_all	patowary_d336	0.5963	0.5385	0.6506	
+Wen_isoQTL	spearman_all	patowary_d336	0.2789	0.1636	0.3878	
+Wen_isoQTL	dir_acc_informative	patowary_d336	0.8364	0.7308	0.9265	
+Wen_isoQTL	spearman_informative	patowary_d336	0.6929	0.4767	0.8298	
+Wen_isoQTL	dir_acc_all	patowary_d209 - adult	-0.003704	-0.01625	0.007493	0.634
+Wen_isoQTL	spearman_all	patowary_d209 - adult	0.004805	-0.0256	0.03667	0.782
+Wen_isoQTL	dir_acc_informative	patowary_d209 - adult	0	0	0	1
+Wen_isoQTL	spearman_informative	patowary_d209 - adult	0.03276	-0.0202	0.09862	0.235
+Wen_isoQTL	dir_acc_all	patowary_d334 - adult	0.001852	-0.01124	0.01509	0.934
+Wen_isoQTL	spearman_all	patowary_d334 - adult	0.000156	-0.03071	0.03054	0.983
+Wen_isoQTL	dir_acc_informative	patowary_d334 - adult	0	0	0	1
+Wen_isoQTL	spearman_informative	patowary_d334 - adult	0.04517	-0.0002478	0.111	0.055
+Wen_isoQTL	dir_acc_all	patowary_d336 - adult	-0.001852	-0.01455	0.01072	0.865
+Wen_isoQTL	spearman_all	patowary_d336 - adult	0.003289	-0.02607	0.03521	0.846
+Wen_isoQTL	dir_acc_informative	patowary_d336 - adult	0	0	0	1
+Wen_isoQTL	spearman_informative	patowary_d336 - adult	0.04524	-0.00372	0.1157	0.072
+Wen_isoQTL	dir_acc_all	fetal - adult	0	-0.007634	0.01049	1
+Wen_isoQTL	spearman_all	fetal - adult	-0.01545	-0.04629	0.01514	0.312
+Wen_isoQTL	dir_acc_informative	fetal - adult	0	0	0	1
+Wen_isoQTL	spearman_informative	fetal - adult	-0.0119	-0.07931	0.04781	0.705
+Wen_isoQTL	dir_acc_all	patowary_d209 - patowary_d334	-0.005556	-0.01493	0	0.266
+Wen_isoQTL	spearman_all	patowary_d209 - patowary_d334	0.004649	-0.007711	0.01759	0.443
+Wen_isoQTL	dir_acc_informative	patowary_d209 - patowary_d334	0	0	0	1
+Wen_isoQTL	spearman_informative	patowary_d209 - patowary_d334	-0.01241	-0.05913	0.02779	0.586
+Wen_isoQTL	dir_acc_all	patowary_d209 - patowary_d336	-0.001852	-0.01306	0.009329	0.874
+Wen_isoQTL	spearman_all	patowary_d209 - patowary_d336	0.001517	-0.01672	0.01941	0.857
+Wen_isoQTL	dir_acc_informative	patowary_d209 - patowary_d336	0	0	0	1
+Wen_isoQTL	spearman_informative	patowary_d209 - patowary_d336	-0.01248	-0.06882	0.03952	0.614
+Wen_isoQTL	dir_acc_all	patowary_d334 - patowary_d336	0.003704	-0.00926	0.01731	0.699
+Wen_isoQTL	spearman_all	patowary_d334 - patowary_d336	-0.003133	-0.02006	0.01183	0.725
+Wen_isoQTL	dir_acc_informative	patowary_d334 - patowary_d336	0	0	0	1
+Wen_isoQTL	spearman_informative	patowary_d334 - patowary_d336	-7.215e-05	-0.03013	0.03181	0.976
+GTEx_sQTL	dir_acc_all	fetal	0.7317	0.631	0.8272	
+GTEx_sQTL	spearman_all	fetal	0.5996	0.4336	0.7272	
+GTEx_sQTL	dir_acc_informative	fetal	0.92	0.8	1	
+GTEx_sQTL	spearman_informative	fetal	0.7169	0.3586	0.9037	
+GTEx_sQTL	dir_acc_all	adult	0.7134	0.6131	0.8148	
+GTEx_sQTL	spearman_all	adult	0.5903	0.4181	0.7258	
+GTEx_sQTL	dir_acc_informative	adult	0.92	0.8	1	
+GTEx_sQTL	spearman_informative	adult	0.7546	0.4321	0.9272	
+GTEx_sQTL	dir_acc_all	patowary_fetal	0.7317	0.6265	0.8333	
+GTEx_sQTL	spearman_all	patowary_fetal	0.6236	0.449	0.7595	
+GTEx_sQTL	dir_acc_informative	patowary_fetal	0.92	0.8	1	
+GTEx_sQTL	spearman_informative	patowary_fetal	0.8215	0.5534	0.9516	
+GTEx_sQTL	dir_acc_all	patowary_d209	0.7378	0.6375	0.8375	
+GTEx_sQTL	spearman_all	patowary_d209	0.6177	0.4477	0.7482	
+GTEx_sQTL	dir_acc_informative	patowary_d209	0.92	0.8	1	
+GTEx_sQTL	spearman_informative	patowary_d209	0.8292	0.5777	0.9474	
+GTEx_sQTL	dir_acc_all	patowary_d334	0.7134	0.6084	0.8182	
+GTEx_sQTL	spearman_all	patowary_d334	0.6227	0.4497	0.7534	
+GTEx_sQTL	dir_acc_informative	patowary_d334	0.92	0.8	1	
+GTEx_sQTL	spearman_informative	patowary_d334	0.7623	0.4329	0.9287	
+GTEx_sQTL	dir_acc_all	patowary_d336	0.7134	0.6084	0.8182	
+GTEx_sQTL	spearman_all	patowary_d336	0.6122	0.4432	0.7473	
+GTEx_sQTL	dir_acc_informative	patowary_d336	0.92	0.8	1	
+GTEx_sQTL	spearman_informative	patowary_d336	0.8223	0.5476	0.9491	
+GTEx_sQTL	dir_acc_all	patowary_d209 - adult	0.02439	0	0.05952	0.252
+GTEx_sQTL	spearman_all	patowary_d209 - adult	0.02738	-0.01314	0.07489	0.213
+GTEx_sQTL	dir_acc_informative	patowary_d209 - adult	0	0	0	1
+GTEx_sQTL	spearman_informative	patowary_d209 - adult	0.07462	-0.09057	0.3091	0.475
+GTEx_sQTL	dir_acc_all	patowary_d334 - adult	0	-0.03659	0.0353	1
+GTEx_sQTL	spearman_all	patowary_d334 - adult	0.03235	-0.004109	0.07829	0.081
+GTEx_sQTL	dir_acc_informative	patowary_d334 - adult	0	0	0	1
+GTEx_sQTL	spearman_informative	patowary_d334 - adult	0.007692	-0.1171	0.1199	0.938
+GTEx_sQTL	dir_acc_all	patowary_d336 - adult	0	-0.03659	0.0353	1
+GTEx_sQTL	spearman_all	patowary_d336 - adult	0.02183	-0.01838	0.07217	0.33
+GTEx_sQTL	dir_acc_informative	patowary_d336 - adult	0	0	0	1
+GTEx_sQTL	spearman_informative	patowary_d336 - adult	0.06769	-0.1099	0.3064	0.53
+GTEx_sQTL	dir_acc_all	fetal - adult	0.01829	0	0.04819	0.263
+GTEx_sQTL	spearman_all	fetal - adult	0.009273	-0.02434	0.04859	0.655
+GTEx_sQTL	dir_acc_informative	fetal - adult	0	0	0	1
+GTEx_sQTL	spearman_informative	fetal - adult	-0.03769	-0.2004	0.08249	0.55
+GTEx_sQTL	dir_acc_all	patowary_d209 - patowary_d334	0.02439	0	0.06099	0.275
+GTEx_sQTL	spearman_all	patowary_d209 - patowary_d334	-0.004963	-0.03583	0.02695	0.772
+GTEx_sQTL	dir_acc_informative	patowary_d209 - patowary_d334	0	0	0	1
+GTEx_sQTL	spearman_informative	patowary_d209 - patowary_d334	0.06692	-0.06093	0.2667	0.436
+GTEx_sQTL	dir_acc_all	patowary_d209 - patowary_d336	0.02439	0	0.06099	0.275
+GTEx_sQTL	spearman_all	patowary_d209 - patowary_d336	0.005551	-0.01637	0.03084	0.637
+GTEx_sQTL	dir_acc_informative	patowary_d209 - patowary_d336	0	0	0	1
+GTEx_sQTL	spearman_informative	patowary_d209 - patowary_d336	0.006923	-0.05428	0.07274	0.919
+GTEx_sQTL	dir_acc_all	patowary_d334 - patowary_d336	0	0	0	1
+GTEx_sQTL	spearman_all	patowary_d334 - patowary_d336	0.01051	-0.01952	0.03915	0.446
+GTEx_sQTL	dir_acc_informative	patowary_d334 - patowary_d336	0	0	0	1
+GTEx_sQTL	spearman_informative	patowary_d334 - patowary_d336	-0.06	-0.2553	0.0557	0.469

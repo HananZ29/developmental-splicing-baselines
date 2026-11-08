@@ -1,0 +1,25 @@
+{
+  "isoQTL": {
+    "rows": 30752,
+    "genes": 30708,
+    "significant_fdr05": 11861,
+    "n_individuals": [
+      626
+    ],
+    "sig_lead_isoform_detected_in_fetal_sqanti": 2087,
+    "sig_lead_isoform_in_fetal_vs_adult_table": 592,
+    "sig_in_table_with_abs_delta_gt_0.1": 144,
+    "abs_z_median_sig": 6.36
+  },
+  "sQTL": {
+    "rows": 18424,
+    "genes": 15949,
+    "significant_fdr05": 8191,
+    "n_individuals": [
+      640
+    ],
+    "sig_genes_in_fetal_vs_adult_table": 789
+  },
+  "isoQTL_sQTL_shared_sig_genes": 5195,
+  "isoQTL_sQTL_same_lead_variant_sig": 940
+}

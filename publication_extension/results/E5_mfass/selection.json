@@ -1,0 +1,30 @@
+{
+  "rows": 32669,
+  "mutants_with_measurements": 27733,
+  "ref_match_plus_strand": 1.0,
+  "ref_match_complement": 0.0,
+  "ref_verified": 27733,
+  "sampled": 3000,
+  "exons_sampled": 1506,
+  "nat_v2_index_quantiles": {
+    "0.0": 0.504,
+    "0.1": 0.837,
+    "0.5": 0.945,
+    "0.9": 0.991,
+    "1.0": 1.0
+  },
+  "v2_dpsi_quantiles": {
+    "0.0": -0.995,
+    "0.05": -0.18,
+    "0.5": 0.029,
+    "0.95": 0.146,
+    "1.0": 0.468
+  },
+  "abs_dpsi_ge_0.1": 585,
+  "strong_lof": 130,
+  "label_counts": {
+    "exon": 1551,
+    "upstr_intron": 810,
+    "downstr_intron": 639
+  }
+}

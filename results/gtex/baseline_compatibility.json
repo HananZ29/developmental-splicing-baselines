@@ -1,0 +1,48 @@
+{
+  "gtex_per_gene_sum": {
+    "generic_all": {
+      "min": 1.0,
+      "50%": 1.0,
+      "max": 1.0
+    },
+    "gtex_cortex": {
+      "min": 1.0,
+      "50%": 1.0,
+      "max": 1.0
+    }
+  },
+  "fetal_per_gene_sum_incl_novel": {
+    "min": 1.0,
+    "50%": 1.0,
+    "max": 1.0
+  },
+  "adult_per_gene_sum_incl_novel": {
+    "min": 1.0,
+    "50%": 1.0,
+    "max": 1.0
+  },
+  "evaluation_genes": 824,
+  "evaluation_transcripts": 10971,
+  "transcripts_with_nonzero_baseline": {
+    "fetal": 0.1444,
+    "adult": 0.1642,
+    "generic": 0.953,
+    "gtex_cortex": 0.9411
+  },
+  "pearson_r_smoothed": {
+    "fetal~adult": 0.933,
+    "fetal~generic": 0.689,
+    "fetal~gtex_cortex": 0.69,
+    "adult~generic": 0.687,
+    "adult~gtex_cortex": 0.696,
+    "generic~gtex_cortex": 0.972
+  },
+  "median_abs_diff_smoothed": {
+    "fetal~adult": 0.0,
+    "fetal~generic": 0.0118,
+    "fetal~gtex_cortex": 0.0079,
+    "adult~generic": 0.0116,
+    "adult~gtex_cortex": 0.0075,
+    "generic~gtex_cortex": 0.0036
+  }
+}

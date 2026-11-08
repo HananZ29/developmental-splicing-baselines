@@ -1,0 +1,26 @@
+{
+  "donor": {
+    "n": 53,
+    "frac_peak_at_offset0": 1.0,
+    "offset_counts": {
+      "0": 53
+    },
+    "median_ref_prob_at_site": 0.986,
+    "median_loss_score": 0.975,
+    "frac_loss_gt_0.5": 0.906
+  },
+  "acceptor": {
+    "n": 53,
+    "frac_peak_at_offset0": 1.0,
+    "offset_counts": {
+      "0": 53
+    },
+    "median_ref_prob_at_site": 0.985,
+    "median_loss_score": 0.984,
+    "frac_loss_gt_0.5": 0.981
+  },
+  "strands": {
+    "+": 44,
+    "-": 62
+  }
+}

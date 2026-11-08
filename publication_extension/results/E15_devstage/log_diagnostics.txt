@@ -1,0 +1,18 @@
+C:\Users\Hanan\Desktop\bioInformatics-research\publication_extension\scripts\E15_baseline_diagnostics.py:342: RuntimeWarning: divide by zero encountered in divide
+  z = diff / np.sqrt(sd_F1 ** 2 + sd_A1 ** 2)
+C:\Users\Hanan\Desktop\bioInformatics-research\publication_extension\scripts\E15_baseline_diagnostics.py:342: RuntimeWarning: invalid value encountered in divide
+  z = diff / np.sqrt(sd_F1 ** 2 + sd_A1 ** 2)
+{
+ "brainspan_samples_used": 362,
+ "eligibility_waterfall": {
+  "wen_clusters": 50311,
+  "E1_>=2_annotated_introns": 32777,
+  "E1_and_rank_ok": 24573,
+  "E1_and_E2_coverage_F1_A1_G": 22327,
+  "E1_and_E4_all_annotated_introns_in_GTEx": 22354,
+  "E1_E4_and_E2_coverage_F1_A1_G": 20792,
+  "E1_E2_E3_E4_eligible": 18496,
+  "eligible_introns": 88471,
+  "eligible_annotated_introns": 58799
+ }
+}

@@ -1,0 +1,64 @@
+{
+  "convention_check_ref_only": {
+    "acceptor": {
+      "modal_offset": 0,
+      "frac_offset0": 0.54,
+      "n": 100
+    },
+    "donor": {
+      "modal_offset": 0,
+      "frac_offset0": 0.63,
+      "n": 100
+    }
+  },
+  "n_scored": 3000,
+  "n_test_variants": 1473,
+  "n_test_exons": 753,
+  "calibrated_k_train": 3.4873,
+  "corr_measured_baseline_with_dpsi_test": -0.553,
+  "frac_test_abs_dpsi_ge_0.1": 0.18,
+  "point": {
+    "P0_raw": {
+      "spearman": 0.1616655303448302,
+      "pearson": 0.47407061290732166,
+      "mae": 0.08563848172094699,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P1_prop_measured": {
+      "spearman": 0.1587279829213909,
+      "pearson": 0.3877297216696882,
+      "mae": 0.0843578640075263,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P2_prop_constant": {
+      "spearman": 0.1597431045413613,
+      "pearson": 0.3971016987178008,
+      "mae": 0.08396877657434966,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P3_prop_shuffled": {
+      "spearman": 0.15822428286378995,
+      "pearson": 0.38121877254073255,
+      "mae": 0.08456585158632295,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P4_prop_half": {
+      "spearman": 0.1597431045413613,
+      "pearson": 0.4610151125198364,
+      "mae": 0.08502451307642588,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P5_calibrated": {
+      "spearman": 0.15905020227282451,
+      "pearson": 0.46019562945681824,
+      "mae": 0.08177401295189565,
+      "dir_acc_abs_dpsi_ge_0.1": 0.6452830188679245
+    },
+    "P6_null_permuted_factor": {
+      "spearman": 0.016209612470310202,
+      "pearson": -0.013863003704573065,
+      "mae": 0.0939860590888107,
+      "dir_acc_abs_dpsi_ge_0.1": 0.5169811320754717
+    }
+  }
+}

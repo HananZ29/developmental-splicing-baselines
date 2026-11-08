@@ -1,0 +1,199 @@
+metric	condition	estimate	ci_low	ci_high	p_boot	arm
+auprc	fetal	0.4175	0.3326	0.5157		sQTL
+auprc	adult	0.396	0.3157	0.494		sQTL
+auprc	generic	0.4365	0.3512	0.5319		sQTL
+auprc	gtex_cortex	0.4281	0.3448	0.527		sQTL
+auprc	uniform	0.3561	0.2837	0.4464		sQTL
+auprc	fetal - adult	0.02146	-0.0112	0.05307	0.208	sQTL
+auprc	fetal - generic	-0.01904	-0.06521	0.0276	0.434	sQTL
+auprc	adult - generic	-0.04049	-0.07959	0.003211	0.07	sQTL
+auprc	fetal - uniform	0.06139	0.00978	0.1171	0.013	sQTL
+auprc_strict_controls	fetal	0.6062	0.5236	0.6821		sQTL
+auprc_strict_controls	adult	0.5958	0.5103	0.6785		sQTL
+auprc_strict_controls	generic	0.5971	0.5112	0.6753		sQTL
+auprc_strict_controls	gtex_cortex	0.6	0.5147	0.6801		sQTL
+auprc_strict_controls	uniform	0.5315	0.439	0.6171		sQTL
+auprc_strict_controls	fetal - adult	0.01045	-0.01936	0.04034	0.53	sQTL
+auprc_strict_controls	fetal - generic	0.009086	-0.03861	0.0536	0.731	sQTL
+auprc_strict_controls	adult - generic	-0.001369	-0.04481	0.04191	0.921	sQTL
+auprc_strict_controls	fetal - uniform	0.07476	0.0196	0.1255	0.006	sQTL
+auroc	fetal	0.6877	0.6328	0.7403		sQTL
+auroc	adult	0.6803	0.6268	0.7338		sQTL
+auroc	generic	0.6876	0.6335	0.7394		sQTL
+auroc	gtex_cortex	0.6925	0.638	0.7435		sQTL
+auroc	uniform	0.6438	0.5893	0.6972		sQTL
+auroc	fetal - adult	0.007456	-0.006274	0.01892	0.246	sQTL
+auroc	fetal - generic	0.0001273	-0.0245	0.02345	0.974	sQTL
+auroc	adult - generic	-0.007329	-0.0296	0.01607	0.504	sQTL
+auroc	fetal - uniform	0.04393	0.016	0.07128	0	sQTL
+auroc_strict_controls	fetal	0.7128	0.655	0.768		sQTL
+auroc_strict_controls	adult	0.7074	0.6475	0.7627		sQTL
+auroc_strict_controls	generic	0.6995	0.6436	0.7558		sQTL
+auroc_strict_controls	gtex_cortex	0.7042	0.6456	0.7581		sQTL
+auroc_strict_controls	uniform	0.6591	0.6014	0.7162		sQTL
+auroc_strict_controls	fetal - adult	0.005315	-0.008808	0.01805	0.456	sQTL
+auroc_strict_controls	fetal - generic	0.01329	-0.01303	0.04011	0.345	sQTL
+auroc_strict_controls	adult - generic	0.007978	-0.01754	0.03472	0.581	sQTL
+auroc_strict_controls	fetal - uniform	0.05364	0.02308	0.08386	0.001	sQTL
+dir_acc_all	fetal	0.7007	0.6269	0.7725		sQTL
+dir_acc_all	adult	0.6871	0.61	0.7616		sQTL
+dir_acc_all	generic	0.7177	0.6467	0.7879		sQTL
+dir_acc_all	gtex_cortex	0.7143	0.6443	0.7843		sQTL
+dir_acc_all	uniform	0.6803	0.6051	0.7483		sQTL
+dir_acc_all	fetal - adult	0.01361	-0.01087	0.03986	0.356	sQTL
+dir_acc_all	fetal - generic	-0.01701	-0.04851	0.009806	0.289	sQTL
+dir_acc_all	adult - generic	-0.03061	-0.06174	-0.003788	0.023	sQTL
+dir_acc_all	fetal - uniform	0.02041	-0.02148	0.06334	0.392	sQTL
+dir_acc_informative	fetal	0.9	0.7959	0.9778		sQTL
+dir_acc_informative	adult	0.925	0.8333	1		sQTL
+dir_acc_informative	generic	0.925	0.8333	1		sQTL
+dir_acc_informative	gtex_cortex	0.925	0.8333	1		sQTL
+dir_acc_informative	uniform	0.925	0.8333	1		sQTL
+dir_acc_informative	fetal - adult	-0.025	-0.08333	0	0.709	sQTL
+dir_acc_informative	fetal - generic	-0.025	-0.08333	0	0.709	sQTL
+dir_acc_informative	adult - generic	0	0	0	1	sQTL
+dir_acc_informative	fetal - uniform	-0.025	-0.08333	0	0.709	sQTL
+posthoc_dir_acc_realweight	fetal	0.6351	0.5234	0.7414		sQTL
+posthoc_dir_acc_realweight	adult	0.6216	0.5091	0.7273		sQTL
+posthoc_dir_acc_realweight	generic	0.6284	0.5182	0.7338		sQTL
+posthoc_dir_acc_realweight	gtex_cortex	0.6351	0.5267	0.7403		sQTL
+posthoc_dir_acc_realweight	uniform	0.5811	0.4714	0.6875		sQTL
+posthoc_dir_acc_realweight	fetal - adult	0.01351	-0.02704	0.05815	0.627	sQTL
+posthoc_dir_acc_realweight	fetal - generic	0.006757	-0.03125	0.03968	0.823	sQTL
+posthoc_dir_acc_realweight	adult - generic	-0.006757	-0.03206	0.01429	0.749	sQTL
+posthoc_dir_acc_realweight	fetal - uniform	0.05405	0	0.1164	0.078	sQTL
+posthoc_spearman_abs	fetal	0.1478	-0.02365	0.3214		sQTL
+posthoc_spearman_abs	adult	0.1892	0.01525	0.3643		sQTL
+posthoc_spearman_abs	generic	0.1943	0.02112	0.3551		sQTL
+posthoc_spearman_abs	gtex_cortex	0.1978	0.02131	0.3609		sQTL
+posthoc_spearman_abs	uniform	0.186	0.004449	0.356		sQTL
+posthoc_spearman_abs	fetal - adult	-0.04138	-0.09448	0.01031	0.116	sQTL
+posthoc_spearman_abs	fetal - generic	-0.04647	-0.1196	0.03125	0.248	sQTL
+posthoc_spearman_abs	adult - generic	-0.005085	-0.0728	0.06888	0.888	sQTL
+posthoc_spearman_abs	fetal - uniform	-0.03816	-0.1161	0.03801	0.346	sQTL
+posthoc_spearman_realweight	fetal	0.2842	0.03201	0.5026		sQTL
+posthoc_spearman_realweight	adult	0.3448	0.09841	0.5508		sQTL
+posthoc_spearman_realweight	generic	0.3406	0.09593	0.5455		sQTL
+posthoc_spearman_realweight	gtex_cortex	0.3412	0.08915	0.5428		sQTL
+posthoc_spearman_realweight	uniform	0.2543	0.0005102	0.4736		sQTL
+posthoc_spearman_realweight	fetal - adult	-0.06058	-0.2055	0.01658	0.4	sQTL
+posthoc_spearman_realweight	fetal - generic	-0.05633	-0.2127	0.05376	0.436	sQTL
+posthoc_spearman_realweight	adult - generic	0.004245	-0.05253	0.05723	0.866	sQTL
+posthoc_spearman_realweight	fetal - uniform	0.02992	-0.136	0.1763	0.686	sQTL
+spearman_all	fetal	0.42	0.26	0.5506		sQTL
+spearman_all	adult	0.4565	0.299	0.5855		sQTL
+spearman_all	generic	0.5	0.3599	0.6152		sQTL
+spearman_all	gtex_cortex	0.4989	0.3551	0.6167		sQTL
+spearman_all	uniform	0.4374	0.2831	0.5607		sQTL
+spearman_all	fetal - adult	-0.03653	-0.114	0.01118	0.244	sQTL
+spearman_all	fetal - generic	-0.08003	-0.167	-0.01428	0.01	sQTL
+spearman_all	adult - generic	-0.0435	-0.09847	1.777e-05	0.051	sQTL
+spearman_all	fetal - uniform	-0.01745	-0.1173	0.07228	0.693	sQTL
+spearman_informative	fetal	0.6854	0.4496	0.8439		sQTL
+spearman_informative	adult	0.8116	0.6671	0.9087		sQTL
+spearman_informative	generic	0.8032	0.6612	0.89		sQTL
+spearman_informative	gtex_cortex	0.7974	0.6563	0.8871		sQTL
+spearman_informative	uniform	0.8047	0.6485	0.9001		sQTL
+spearman_informative	fetal - adult	-0.1263	-0.3256	-0.001961	0.045	sQTL
+spearman_informative	fetal - generic	-0.1178	-0.3125	0.02567	0.13	sQTL
+spearman_informative	adult - generic	0.008443	-0.06756	0.08343	0.751	sQTL
+spearman_informative	fetal - uniform	-0.1193	-0.3034	0.02541	0.115	sQTL
+auprc	fetal	0.3691	0.3101	0.4376		isoQTL
+auprc	adult	0.3743	0.3135	0.4431		isoQTL
+auprc	generic	0.3584	0.3023	0.4299		isoQTL
+auprc	gtex_cortex	0.3576	0.3016	0.4324		isoQTL
+auprc	uniform	0.3138	0.2617	0.3768		isoQTL
+auprc	fetal - adult	-0.005186	-0.0279	0.01902	0.672	isoQTL
+auprc	fetal - generic	0.01069	-0.02965	0.04508	0.617	isoQTL
+auprc	adult - generic	0.01588	-0.02482	0.05041	0.457	isoQTL
+auprc	fetal - uniform	0.05531	0.01374	0.09727	0.01	isoQTL
+auprc_strict_controls	fetal	0.4288	0.3645	0.5014		isoQTL
+auprc_strict_controls	adult	0.4322	0.3674	0.5029		isoQTL
+auprc_strict_controls	generic	0.4195	0.3544	0.4996		isoQTL
+auprc_strict_controls	gtex_cortex	0.4215	0.3548	0.5032		isoQTL
+auprc_strict_controls	uniform	0.3709	0.3128	0.4401		isoQTL
+auprc_strict_controls	fetal - adult	-0.003417	-0.02672	0.02186	0.803	isoQTL
+auprc_strict_controls	fetal - generic	0.00933	-0.03384	0.04893	0.677	isoQTL
+auprc_strict_controls	adult - generic	0.01275	-0.03344	0.05178	0.6	isoQTL
+auprc_strict_controls	fetal - uniform	0.05793	0.01491	0.1025	0.011	isoQTL
+auroc	fetal	0.6574	0.6187	0.6945		isoQTL
+auroc	adult	0.6685	0.6298	0.7054		isoQTL
+auroc	generic	0.6767	0.6394	0.7153		isoQTL
+auroc	gtex_cortex	0.6814	0.6428	0.7201		isoQTL
+auroc	uniform	0.6348	0.5959	0.6718		isoQTL
+auroc	fetal - adult	-0.01112	-0.02541	0.002772	0.123	isoQTL
+auroc	fetal - generic	-0.01927	-0.04095	0.0002523	0.055	isoQTL
+auroc	adult - generic	-0.008151	-0.0317	0.01367	0.443	isoQTL
+auroc	fetal - uniform	0.02257	-0.001186	0.04761	0.058	isoQTL
+auroc_strict_controls	fetal	0.6589	0.6172	0.6976		isoQTL
+auroc_strict_controls	adult	0.6667	0.6271	0.7047		isoQTL
+auroc_strict_controls	generic	0.6754	0.6347	0.7148		isoQTL
+auroc_strict_controls	gtex_cortex	0.6825	0.6401	0.7239		isoQTL
+auroc_strict_controls	uniform	0.6355	0.5956	0.6721		isoQTL
+auroc_strict_controls	fetal - adult	-0.007805	-0.02205	0.00664	0.305	isoQTL
+auroc_strict_controls	fetal - generic	-0.01644	-0.04013	0.004671	0.133	isoQTL
+auroc_strict_controls	adult - generic	-0.008638	-0.03461	0.01534	0.449	isoQTL
+auroc_strict_controls	fetal - uniform	0.02344	-0.002195	0.04909	0.069	isoQTL
+dir_acc_all	fetal	0.5981	0.5397	0.6553		isoQTL
+dir_acc_all	adult	0.5981	0.5399	0.6554		isoQTL
+dir_acc_all	generic	0.5926	0.5314	0.649		isoQTL
+dir_acc_all	gtex_cortex	0.5852	0.5251	0.6416		isoQTL
+dir_acc_all	uniform	0.5556	0.4929	0.6134		isoQTL
+dir_acc_all	fetal - adult	0	-0.007844	0.009884	1	isoQTL
+dir_acc_all	fetal - generic	0.005556	-0.0155	0.02843	0.696	isoQTL
+dir_acc_all	adult - generic	0.005556	-0.01552	0.02834	0.704	isoQTL
+dir_acc_all	fetal - uniform	0.04259	0.01636	0.07143	0	isoQTL
+dir_acc_informative	fetal	0.8364	0.7321	0.926		isoQTL
+dir_acc_informative	adult	0.8364	0.7321	0.926		isoQTL
+dir_acc_informative	generic	0.8364	0.7321	0.926		isoQTL
+dir_acc_informative	gtex_cortex	0.8364	0.7321	0.926		isoQTL
+dir_acc_informative	uniform	0.8	0.6875	0.9016		isoQTL
+dir_acc_informative	fetal - adult	0	0	0	1	isoQTL
+dir_acc_informative	fetal - generic	0	0	0	1	isoQTL
+dir_acc_informative	adult - generic	0	0	0	1	isoQTL
+dir_acc_informative	fetal - uniform	0.03636	0	0.09805	0.29	isoQTL
+posthoc_dir_acc_realweight	fetal	0.5333	0.431	0.6389		isoQTL
+posthoc_dir_acc_realweight	adult	0.5278	0.4277	0.625		isoQTL
+posthoc_dir_acc_realweight	generic	0.5222	0.4193	0.6267		isoQTL
+posthoc_dir_acc_realweight	gtex_cortex	0.5167	0.4118	0.6236		isoQTL
+posthoc_dir_acc_realweight	uniform	0.5056	0.401	0.6105		isoQTL
+posthoc_dir_acc_realweight	fetal - adult	0.005556	-0.01539	0.03261	0.952	isoQTL
+posthoc_dir_acc_realweight	fetal - generic	0.01111	-0.02885	0.05618	0.695	isoQTL
+posthoc_dir_acc_realweight	adult - generic	0.005556	-0.03371	0.05129	0.935	isoQTL
+posthoc_dir_acc_realweight	fetal - uniform	0.02778	-0.006024	0.07273	0.186	isoQTL
+posthoc_spearman_abs	fetal	0.2344	0.1225	0.3402		isoQTL
+posthoc_spearman_abs	adult	0.2181	0.1009	0.3336		isoQTL
+posthoc_spearman_abs	generic	0.1646	0.05055	0.2762		isoQTL
+posthoc_spearman_abs	gtex_cortex	0.1833	0.06931	0.2912		isoQTL
+posthoc_spearman_abs	uniform	0.1873	0.06954	0.302		isoQTL
+posthoc_spearman_abs	fetal - adult	0.01628	-0.03662	0.06887	0.525	isoQTL
+posthoc_spearman_abs	fetal - generic	0.06975	0.000264	0.1486	0.05	isoQTL
+posthoc_spearman_abs	adult - generic	0.05347	-0.02405	0.1338	0.154	isoQTL
+posthoc_spearman_abs	fetal - uniform	0.0471	-0.0329	0.1337	0.268	isoQTL
+posthoc_spearman_realweight	fetal	0.07345	-0.1484	0.3057		isoQTL
+posthoc_spearman_realweight	adult	0.04553	-0.1789	0.2732		isoQTL
+posthoc_spearman_realweight	generic	0.02936	-0.186	0.2512		isoQTL
+posthoc_spearman_realweight	gtex_cortex	0.01998	-0.1946	0.2449		isoQTL
+posthoc_spearman_realweight	uniform	-0.01714	-0.2493	0.2155		isoQTL
+posthoc_spearman_realweight	fetal - adult	0.02792	-0.03311	0.09994	0.414	isoQTL
+posthoc_spearman_realweight	fetal - generic	0.04409	-0.0337	0.1249	0.268	isoQTL
+posthoc_spearman_realweight	adult - generic	0.01617	-0.07568	0.1012	0.722	isoQTL
+posthoc_spearman_realweight	fetal - uniform	0.09059	-0.001666	0.2014	0.054	isoQTL
+spearman_all	fetal	0.2602	0.1422	0.3712		isoQTL
+spearman_all	adult	0.2756	0.1525	0.386		isoQTL
+spearman_all	generic	0.2552	0.1344	0.3651		isoQTL
+spearman_all	gtex_cortex	0.2485	0.1272	0.3604		isoQTL
+spearman_all	uniform	0.1725	0.0442	0.2912		isoQTL
+spearman_all	fetal - adult	-0.01545	-0.04378	0.01554	0.326	isoQTL
+spearman_all	fetal - generic	0.005	-0.03343	0.04405	0.821	isoQTL
+spearman_all	adult - generic	0.02045	-0.02484	0.0639	0.369	isoQTL
+spearman_all	fetal - uniform	0.08767	0.02286	0.1581	0.003	isoQTL
+spearman_informative	fetal	0.6357	0.4045	0.7959		isoQTL
+spearman_informative	adult	0.6476	0.4175	0.8149		isoQTL
+spearman_informative	generic	0.603	0.4116	0.7319		isoQTL
+spearman_informative	gtex_cortex	0.5924	0.3931	0.7259		isoQTL
+spearman_informative	uniform	0.535	0.2972	0.718		isoQTL
+spearman_informative	fetal - adult	-0.0119	-0.08045	0.05251	0.711	isoQTL
+spearman_informative	fetal - generic	0.03268	-0.0741	0.1332	0.438	isoQTL
+spearman_informative	adult - generic	0.04459	-0.06775	0.1495	0.362	isoQTL
+spearman_informative	fetal - uniform	0.1007	-0.02697	0.2545	0.135	isoQTL

@@ -1,0 +1,104 @@
+{
+ "label": "POST-HOC (not pre-registered). Does not alter the frozen E15 decision.",
+ "n_units": 1449,
+ "n_components": 675,
+ "B": 10000,
+ "seed": 20261107,
+ "MEI": 0.0228,
+ "rho_point_recomputed": {
+  "F1": 0.6605525729077969,
+  "A1": 0.6518505007874974,
+  "G": 0.6713058715919111,
+  "U": 0.6668231179928265
+ },
+ "rho_point_frozen": {
+  "F1": 0.6605525729077968,
+  "A1": 0.6518505007874974,
+  "G": 0.6713058715919112,
+  "U": 0.6668231179928263
+ },
+ "check1_independent_reimplementation_fixed_ranks": {
+  "F1-A1": {
+   "delta_rho": 0.008702072120299498,
+   "ci95": [
+    -0.0006503280236247854,
+    0.018480693597224977
+   ],
+   "p_boot_two_sided": 0.0674,
+   "ci95_within_pm_MEI": true
+  },
+  "F1-G": {
+   "delta_rho": -0.010753298684114232,
+   "ci95": [
+    -0.03067617350063542,
+    0.005329063060404234
+   ],
+   "p_boot_two_sided": 0.2344,
+   "ci95_within_pm_MEI": false
+  },
+  "F1-U": {
+   "delta_rho": -0.006270545085029555,
+   "ci95": [
+    -0.02791404483132503,
+    0.014035971049078739
+   ],
+   "p_boot_two_sided": 0.5658,
+   "ci95_within_pm_MEI": false
+  }
+ },
+ "check2_conventional_reranked_bootstrap": {
+  "F1-A1": {
+   "delta_rho": 0.008702072120299498,
+   "ci95": [
+    -0.0006647421759485322,
+    0.018595662994224764
+   ],
+   "p_boot_two_sided": 0.0716,
+   "ci95_within_pm_MEI": true
+  },
+  "F1-G": {
+   "delta_rho": -0.010753298684114232,
+   "ci95": [
+    -0.03081012549095906,
+    0.005365825696091827
+   ],
+   "p_boot_two_sided": 0.232,
+   "ci95_within_pm_MEI": false
+  },
+  "F1-U": {
+   "delta_rho": -0.006270545085029555,
+   "ci95": [
+    -0.02816635218107629,
+    0.014265962311734886
+   ],
+   "p_boot_two_sided": 0.5664,
+   "ci95_within_pm_MEI": false
+  }
+ },
+ "frozen_primary": {
+  "F1-A1": {
+   "delta_rho": 0.008702072120299387,
+   "ci95": [
+    -0.0007380090313199416,
+    0.018508185280631997
+   ],
+   "decision": "No meaningful difference"
+  },
+  "F1-G": {
+   "delta_rho": -0.010753298684114454,
+   "ci95": [
+    -0.030764834681411952,
+    0.005560229858064871
+   ],
+   "decision": "Inconclusive"
+  },
+  "F1-U": {
+   "delta_rho": -0.006270545085029555,
+   "ci95": [
+    -0.027444993009148294,
+    0.013804549930326267
+   ],
+   "decision": "Inconclusive"
+  }
+ }
+}
